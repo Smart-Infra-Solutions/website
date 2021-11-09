@@ -11,17 +11,16 @@
       <div class="col-lg-12 text-center">
         <form action="{{ .Site.Params.contact_form_action }}" method="POST" class="row">
           <input type="hidden" name="_next" value="https://si.solutions/thanks">
-          <input type="hidden" name="_url" value="http://si.solutions/contact">
           <input type="hidden" name="_template" value="table">
           <input type="text" name="_honey" style="display:none">
           <div class="col-lg-6">
-            <input type="_replyto" class="form-control mb-4" placeholder="Votre email">
+            <input type="text" type="email" name="email" class="form-control mb-4" placeholder="Votre email">
           </div>
           <div class="col-lg-6">
             <input type="text" class="form-control mb-4" placeholder="Votre Nom">
           </div>
           <div class="col-lg-12">
-            <input type="text" name="_url" class="form-control mb-4" placeholder="Sujet">
+            <input type="text" name="_subject" class="form-control mb-4" placeholder="Sujet">
           </div>
           <div class="col-lg-12">
             <textarea name="message" class="form-control mb-4" placeholder="Message"></textarea>
