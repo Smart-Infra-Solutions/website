@@ -1,0 +1,79 @@
+################################## Gallery ######################################
+gallery:
+  enable : false
+  title : "Our Featured Gallery"
+  gallery_item:
+    # gallery item loop
+    - image : "images/gallery/gallery-img-1.jpg"
+      column : 1 # column is for image width
+      content : "Lorem ipsum dolor sit amet, [themefisher](https://themefisher.com) consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+    # gallery item loop
+    - image : "images/gallery/gallery-img-2.jpg"
+      column : 1 # column is for image width
+      content : ""
+
+    # gallery item loop
+    - image : "images/gallery/gallery-img-3.jpg"
+      column : 1 # column is for image width
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+    # gallery item loop
+    - image : "images/gallery/gallery-img-4.jpg"
+      column : 1 # column is for image width
+      content : ""
+
+    # gallery item loop
+    - image : "images/gallery/gallery-img-5.jpg"
+      column : 1 # column is for image width
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+    # gallery item loop
+    - image : "images/gallery/gallery-img-6.jpg"
+      column : 2 # column is for image width
+      content : ""
+
+    # gallery item loop
+    - image : "images/gallery/gallery-img-7.jpg"
+      column : 1 # column is for image width
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+
+#################################### team #############################################
+team:
+  enable : true
+  title : "Notre équipe"
+  team_member:
+    # team member loop
+    - name : " Mickael Aouar"
+      image : "images/team/team-member-2.jpg" # image should be squre size
+      designation : "Technicien Informatique Itinérant"
+      email : "mika@si.solutions"
+      social:
+        - icon : "ti-linkedin" # here we use themefy icon pack : https://themify.me/themify-icons
+          link : "https://fr.linkedin.com/in/aouar-mickael-3a063a87"
+
+    # team member loop
+    - name : "David Foltete"
+      image : "images/team/team-member-1.jpg" # image should be squre size
+      designation : "Président"
+      email : "dfo@si.solutions"
+      social:
+        - icon : "ti-linkedin" # here we use themefy icon pack : https://themify.me/themify-icons
+          link : "https://fr.linkedin.com/in/david-foltete"
+
+    # team member loop
+    - name : "Frédéric Senchet"
+      image : "images/team/team-member-3.jpg" # image should be squre size
+      designation : "Consultant"
+      email : "fs@si.solutions"
+      social:
+        - icon : "ti-github" # here we use themefy icon pack : https://themify.me/themify-icons
+          link : "https://github.com/Ch1ch1"
+
+        - icon : "ti-linkedin" # here we use themefy icon pack : https://themify.me/themify-icons
+          link : "https://fr.linkedin.com/in/fr%C3%A9d%C3%A9ric-senchet-108923158"
+######################### Clients logo slider ################################
+clients_logo:
+  enable : true
+  # logo comes from "config.toml" file

@@ -1,0 +1,57 @@
+---
+kind: pipeline
+type: docker
+name: Building..
+node:
+  drone: ch1
+
+steps:
+- name: build
+  image: ch1ch1/drone-hugo
+  settings:
+    hugo_version: 0.89.2
+    theme: themes/hello-friend-ng/
+  pull: always
+- name: deploy
+  image: appleboy/drone-scp
+  settings:
+    host:
+      from_secret: websitesynchost
+    user: dockerrunner
+    key:
+      from_secret: id_rsadeploy
+    passphrase:
+      from_secret: id_rsapassphrase
+    target:
+        from_secret: path
+    strip_components: 1
+    overwrite: true
+    source: public/*
+-   name: purge cache
+    image: jetrails/drone-cloudflare-caching
+    settings:
+        api_token:
+            from_secret: cloudflare_token
+        zone_identifier:
+            from_secret: cloudflare_zone_identifier
+        action: purge_everything
+- name: notification
+  image: plugins/webhook
+  settings:
+    urls:
+      from_secret: webhookgotify
+    content_type: application/json
+    template: |
+      {
+       "message": "{{ repo.owner }} as updated {{ repo.name }} with {{ build.status }}.",
+       "priority": 4,
+       "title": "{{ repo.name }} build"
+      }
+  when:
+    status: [success, failure]
+
+---
+kind: signature
+hmac: a44ffa62338bfa34059162c157e7aad74529f618b93a09dffb774a1a6925ad6e
+
+...
