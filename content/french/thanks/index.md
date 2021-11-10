@@ -10,4 +10,5 @@ description : "Mentions légales"
 author: "Système"
 date: 2021-11-06T15:27:17+06:00
 ---
+
 ![thanks](/images/thanks.gif#center)
