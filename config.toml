@@ -15,6 +15,7 @@ defaultContentLanguage = "fr"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+
 ############################# Plugins ##############################
 
 # CSS Plugins
