@@ -33,7 +33,7 @@ about:
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
   content : "
 
-  ## Nous sommes là pour simplifier et rationaliser vos sytèmes informatiques
+  ## Nous sommes là pour simplifier et rationaliser vos systèmes informatiques
 
   Il faut trouver des phrases d'actroche ou du contenu ici.
 
@@ -46,7 +46,7 @@ about:
 
 ################################# testimonial ################################
 testimonial:
-  enable : false
+  enable : true
   title : "Qu'en pensent nos partenaires?"
   testimonial_item:
     # testimonial item loop
