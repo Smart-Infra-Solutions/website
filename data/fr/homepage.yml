@@ -46,7 +46,7 @@ about:
 
 ################################# testimonial ################################
 testimonial:
-  enable : true
+  enable : false
   title : "Qu'en pensent nos partenaires?"
   testimonial_item:
     # testimonial item loop
