@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://si.solutions/"
 title = "Smart Infra Solutions"
-theme = "redlab-hugo"
+theme = "sis"
 # post pagination
 paginate = "6"
 # post excerpt
