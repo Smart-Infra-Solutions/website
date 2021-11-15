@@ -70,14 +70,16 @@
         <h2 class="section-title">{{ .title | markdownify }}</h2>
       </div>
       {{ range .service_item }}
+      <a href="{{ .link | markdownify }}">
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card rounded-0 text-center hover-bg-secondary">
-          <div class="card-body p-4">
+            <div class="card-body p-4">
             <i class="icon-rounded bg-primary text-white {{ .icon }} mb-4"></i>
             <h4 class="card-title">{{ .title | markdownify }}</h4>
             <P class="card-text content">{{ .content | markdownify }}</P>
           </div>
         </div>
+      </a>
       </div>
       {{ end }}
     </div>

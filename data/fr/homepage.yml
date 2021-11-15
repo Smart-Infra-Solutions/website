@@ -79,41 +79,49 @@ service:
       icon : "ti-vector" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Pour nous permettre de mieux appréhender le contexte technique de chaque client et de son système d'informations, nous vous proposons différentes missions d'audit et de conseil :
 -	Analyse des coûts Télécom : à partir d'une collecte des factures de l'année, nous analysons chaque coût facturé"
+      link : "audit-infrastructures"
 
     # Service item loop
     - title : "Audit et de conseil"
       icon : "ti-unlock" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Annuaires, authentifications, sécurité, architecture technique, systèmes"
+      link : "audit-securite"
 
     # Service item loop
     - title : "Lan Managé"
       icon : " ti-hand-drag" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Nous avons pour ambition de développer un portail de services managés, permettant à chaque client d’accéder à la gestion de ses services et au monitoring de ses ressources."
+      link : "lan-manage"
 
     # Service item loop
     - title : "Affichage dynamique"
       icon : "ti-blackboard" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      link : "affichage-dynamique"
 
     # Service item loop
     - title : "Vidéosurveillance"
       icon : "ti-video-camera" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      link : "videosurveillance"
 
     # Service item loop
     - title : "IOT"
       icon : "ti-tablet" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      link : "iot"
 
     # Service item loop
     - title : "Maintenance / Interventions sur site"
       icon : "ti-truck" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      link : "maintenance-interventions"
 
     # Service item loop
     - title : "Recyclage / Destruction / Effacement de données"
       icon : "ti-direction-alt" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      link : "recyclage-destruction"
 
 ######################### Clients logo slider ################################
 clients_logo:
