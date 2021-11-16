@@ -97,7 +97,22 @@ a:hover {
     top: 0;
     left: 0;
     background: $secondary-color;
-    opacity: .5;
+    opacity: .2;
+  }
+}
+
+.overlay-footer {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: $secondary-color;
+    opacity: .75;
   }
 }
 

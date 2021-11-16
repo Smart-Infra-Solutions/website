@@ -1,6 +1,9 @@
 - id: apply_now
   translation: Apply Now
 
+- id: services
+  translation: Services
+
 - id: job_details
   translation: Job Details
 
@@ -12,6 +15,9 @@
 
 - id: job_type
   translation: Job Type
+
+- id: discover
+  translation: Découvrir
 
 - id: posted_date
   translation: Posté le

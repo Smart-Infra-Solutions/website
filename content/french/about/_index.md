@@ -2,9 +2,9 @@
 title: "A propos"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/about-page.jpg"
+bg_image: "images/backgrounds/banner.png"
 # about image
-image: "images/about/about2.jpg"
+image: "images/about/about2.png"
 # meta description
 description : "A propos"
 ---

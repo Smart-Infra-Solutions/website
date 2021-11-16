@@ -66,25 +66,30 @@ weight = 1
 #URL = "portfolio"
 #weight = 2
 
-[[menu.main]]
-weight = 3
-name = "Pages"
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "Career"
-  URL = "career"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "Blog"
-  URL = "blog"
+# [[menu.main]]
+# weight = 3
+# name = "Pages"
+# hasChildren = true
+#
+#  [[menu.main]]
+#  parent = "Pages"
+#  name = "Career"
+#  URL = "career"
+#
+#  [[menu.main]]
+#  parent = "Pages"
+#  name = "Blog"
+#  URL = "blog"
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
 weight = 4
+
+[[menu.main]]
+name = "Services"
+URL = "services"
+weight = 3
 
 # footer menu
 # [[menu.footer]]
