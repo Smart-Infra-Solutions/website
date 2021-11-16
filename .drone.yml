@@ -9,7 +9,7 @@ steps:
 - name: build
   image: ch1ch1/drone-hugo
   settings:
-    hugo_version: 0.89.2
+    hugo_version: 0.89.3
     theme: themes/hello-friend-ng/
   pull: always
 - name: deploy
@@ -52,6 +52,6 @@ steps:
 
 ---
 kind: signature
-hmac: 5822cdc5939348bccc51fad06746937f4e16d78dfaac26bbd3694f562f761524
+hmac: 2b52f3adaf6670b96e66b700e6e9e9136c0e914e2b996f23aa6f37cca802fb3c
 
 ...
