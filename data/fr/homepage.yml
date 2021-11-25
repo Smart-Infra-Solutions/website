@@ -87,13 +87,13 @@ service:
   title : "Nos Services"
   service_item:
     # Service item loop
-    - title : "Audit et de conseil"
+    - title : "Audit et conseil"
       icon : "ti-unlock" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Annuaires, authentifications, sécurité, architecture technique, systèmes"
       link : "audit-securite"
 
     # Service item loop
-    - title : "Audit et de conseil - Infrastructures courant faible, réseau IP"
+    - title : "Audit et conseil - Infrastructures courant faible, réseau IP"
       icon : "ti-vector" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Pour nous permettre de mieux appréhender le contexte technique de chaque client et de son système d'informations, nous vous proposons différentes missions d'audit et de conseil :
 -	Analyse des coûts Télécom : à partir d'une collecte des factures de l'année, nous analysons chaque coût facturé"
@@ -112,7 +112,7 @@ service:
       link : "affichage-dynamique"
 
     # Service item loop
-    - title : "Vidéosurveillance / Sonorisation / Contrôle d'accès"
+    - title : "Vidéosurveillance - Sonorisation - Contrôle d'accès"
       icon : "ti-video-camera" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
       link : "videosurveillance"
