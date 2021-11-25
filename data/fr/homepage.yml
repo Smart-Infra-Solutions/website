@@ -124,13 +124,13 @@ service:
       link : "iot"
 
     # Service item loop
-    - title : "Maintenance / Interventions sur site"
+    - title : "Maintenance - Interventions sur site"
       icon : "ti-truck" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
       link : "maintenance-interventions"
 
     # Service item loop
-    - title : "Recyclage / Destruction / Effacement de données"
+    - title : "Recyclage - Destruction - Effacement de données"
       icon : "ti-direction-alt" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
       link : "recyclage-destruction"

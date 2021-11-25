@@ -20,3 +20,5 @@ De nombreux services informatiques ou prestataires se rassurent de disposer d’
 
 Anciennement concentrée dans les datacenters de l’entreprise, la donnée est désormais dispatchée et hébergée dans de nombreux environnements différents, notamment dans le cloud.
 Il est donc important de dresser une cartographie intégrale du SI pour définir et mettre en œuvre une politique de sauvegarde fiable et adaptée
+
+Nous proposons des prestations d'accompagnement et de mise en oeuvre de solutuion de backup, en nous adaptant aux nouveaux usages cloud selon vos contraintes et vos objectifs, suivant les obligations RGPD.
