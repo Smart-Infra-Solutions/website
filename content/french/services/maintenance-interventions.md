@@ -9,7 +9,7 @@ image: "/images/backgrounds/banner.png"
 description : "Maintenance - Interventions sur site"
 aliases :  "/maintenance-interventions"
 ---
-Nous disposons de moyens logistiques pour assurer une couverture nationale et d'un local d'activités nous permettant de stocker du matériel.
+Nous disposons de moyens logistiques pour assurer une couverture nationale et d'un local d'activités nous permettant de stocker et préparer du matériel.
 Nous disposons d'une expérience de 20 années dans la gestion des sites à distance et dans la planification des interventions sur site au niveau national.
 Nous pouvons proposer nos services pour différents types d'intervention :  
 
