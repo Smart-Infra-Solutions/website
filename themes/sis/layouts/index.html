@@ -36,30 +36,6 @@
 {{ partial "cta.html" . }}
 {{ end }}
 
-<!-- about -->
-{{ if $data.homepage.about.enable }}
-{{ with $data.homepage.about }}
-<section class="section bg-secondary-white">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 mb-4 mb-md-0 pr-lg-5">
-        <img src="{{ .image | absURL }}" alt="about" class="img-fluid">
-      </div>
-      <div class="col-md-6 pl-lg-4">
-        <div class="content mb-4">{{ .content | markdownify }}</div>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-{{end}}
-{{end}}
-<!-- /about -->
-
 <!-- service -->
 {{ if $data.homepage.service.enable }}
 {{ with $data.homepage.service }}
@@ -88,6 +64,30 @@
 {{ end }}
 {{ end }}
 <!-- /service -->
+
+<!-- about -->
+{{ if $data.homepage.about.enable }}
+{{ with $data.homepage.about }}
+<section class="section bg-secondary-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-4 mb-md-0 pr-lg-5">
+        <img src="{{ .image | absURL }}" alt="about" class="img-fluid">
+      </div>
+      <div class="col-md-6 pl-lg-4">
+        <div class="content mb-4">{{ .content | markdownify }}</div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
+<!-- /about -->
 
 <!-- testimonial -->
 {{ if $data.homepage.testimonial.enable }}
