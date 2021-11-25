@@ -123,6 +123,12 @@ service:
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
       link : "recyclage-destruction"
 
+    # Service item loop
+    - title : "Sauvegarde"
+      icon : "ti-save" # here we use themefy icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      link : "sauvegarde"
+
 ######################### Clients logo slider ################################
 clients_logo:
   enable : true
