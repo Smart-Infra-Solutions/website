@@ -13,6 +13,7 @@ Vous avez un projet d'intégration d'objets connectés dans votre système d'inf
 Vous souhaitez déployer des objets connectés sans les supporter au niveau des infrastructures de l'entreprise ?
 Nous vous proposons une démarche de conseils et d'accompagnement à la mise en œuvre en intégrant :  
 
+- La sécurisation de vos IOT
 -	Les contraintes de raccordement (filaire, wifi, bluetooth, beacon, zigbee…)
 -	La sécurisation des objets (réseau, Internet…)
 -	Le monitoring

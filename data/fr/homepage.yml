@@ -112,7 +112,7 @@ service:
       link : "affichage-dynamique"
 
     # Service item loop
-    - title : "Vidéosurveillance"
+    - title : "Vidéosurveillance / Sonorisation / Contrôle d'accès"
       icon : "ti-video-camera" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
       link : "videosurveillance"
