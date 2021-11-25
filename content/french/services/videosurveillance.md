@@ -7,5 +7,5 @@ bg_image : "/images/backgrounds/banner.png"
 image: "/images/backgrounds/banner.png"
 # meta description
 description : "Vidéo Surveillance"
-aliases :  "/video-surveillance"
+aliases :  "/videosurveillance"
 ---
