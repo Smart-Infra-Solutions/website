@@ -31,20 +31,27 @@ about:
   enable: true
   image : "images/about/about.jpg"
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
-  content : "
-
-  ### Nous sommes là pour simplifier et rationaliser vos systèmes informatiques
+  content : "### Nous sommes là pour simplifier et rationaliser vos systèmes informatiques
 
 Pour faire face à l’évolution constante des nouvelles technologies et des usages, il est désormais indispensable de maîtriser parfaitement son système d’informations et de disposer de l’expertise et du savoir-faire nécessaires.
 Maintenir le bon niveau d’expertise de ses équipes internes devient complexe, notamment pour faire face aux nombreuses cyber menaces bien réelles et à la nécessité de renforcer la sécurité des systèmes et réseaux.
 Au cours de ces dernières années, aucune entreprise n'est à l'abri d'une cyber-attaque. Les conséquences sont nombreuses et de plus en plus impactantes.
 Le télétravail et le nomadisme ajoutent une couche de complexité et de vulnérabilité pour les ressources de l’entreprise.
+
+
 Nous souhaitons vous accompagner en vous proposant des solutions clé en main en services managés, adaptées sur mesure avec vous en fonction de vos besoins, votre contexte technique, vos enjeux et votre budget.
 Nous proposons un ensemble de prestations et de services permettant de nous adapter à chaque situation :
 
+
 •	Audit – Conseil : analyse de facturation, établissement du périmètre technique, validation du besoin, rédaction cahier des charges, appel d’offres, soutenance et aide à la décision
+
+
 •	Déploiement : gestion des commandes, pilotage, suivi de migration, portabilité des accès
+
+
 •	Interventions sur site : SAV, migration technique, installations, gestion des sites (créations, déménagements, fermetures…)
+
+
 •	Lan managé
 "
   button:

@@ -77,4 +77,7 @@
   translation: En savoir plus
 
 - id: create_project
-  translation: Voules-vous nous contacter ?
+  translation: Voulez-vous nous contacter ?
+
+- id: leave_message
+  translation: Laissez nous un message
