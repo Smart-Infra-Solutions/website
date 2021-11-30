@@ -46,7 +46,7 @@ team:
   team_member:
     # team member loop
     - name : " Mickael Aouar"
-      image : "images/team/team-member-2.jpg" # image should be squre size
+      image : "images/team/mika.jpg" # image should be squre size
       designation : "Technicien Informatique Itinérant"
       email : "mika@si.solutions"
       social:
@@ -55,7 +55,7 @@ team:
 
     # team member loop
     - name : "David Foltete"
-      image : "images/team/team-member-1.jpg" # image should be squre size
+      image : "images/team/dfo.jpg" # image should be squre size
       designation : "Président"
       email : "dfo@si.solutions"
       social:
@@ -64,7 +64,7 @@ team:
 
     # team member loop
     - name : "Frédéric Senchet"
-      image : "images/team/team-member-3.jpg" # image should be squre size
+      image : "images/team/fs.jpg" # image should be squre size
       designation : "Consultant"
       email : "fs@si.solutions"
       social:

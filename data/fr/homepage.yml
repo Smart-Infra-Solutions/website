@@ -33,7 +33,7 @@ about:
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
   content : "
 
-  ## Nous sommes là pour simplifier et rationaliser vos systèmes informatiques
+  ### Nous sommes là pour simplifier et rationaliser vos systèmes informatiques
 
 Pour faire face à l’évolution constante des nouvelles technologies et des usages, il est désormais indispensable de maîtriser parfaitement son système d’informations et de disposer de l’expertise et du savoir-faire nécessaires.
 Maintenir le bon niveau d’expertise de ses équipes internes devient complexe, notamment pour faire face aux nombreuses cyber menaces bien réelles et à la nécessité de renforcer la sécurité des systèmes et réseaux.
@@ -41,20 +41,16 @@ Au cours de ces dernières années, aucune entreprise n'est à l'abri d'une cybe
 Le télétravail et le nomadisme ajoutent une couche de complexité et de vulnérabilité pour les ressources de l’entreprise.
 Nous souhaitons vous accompagner en vous proposant des solutions clé en main en services managés, adaptées sur mesure avec vous en fonction de vos besoins, votre contexte technique, vos enjeux et votre budget.
 Nous proposons un ensemble de prestations et de services permettant de nous adapter à chaque situation :
+
 •	Audit – Conseil : analyse de facturation, établissement du périmètre technique, validation du besoin, rédaction cahier des charges, appel d’offres, soutenance et aide à la décision
-
 •	Déploiement : gestion des commandes, pilotage, suivi de migration, portabilité des accès
-
 •	Interventions sur site : SAV, migration technique, installations, gestion des sites (créations, déménagements, fermetures…)
-
 •	Lan managé
-
-
-  "
+"
   button:
     enable : true
     label : "En savoir plus"
-    link : "about"
+    link : "services"
 
 ################################# testimonial ################################
 testimonial:
@@ -87,7 +83,7 @@ service:
   title : "Nos Services"
   service_item:
     # Service item loop
-    - title : "Audit et conseil"
+    - title : "Audit et conseil - Sécurité"
       icon : "ti-unlock" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Annuaires, authentifications, sécurité, architecture technique, systèmes"
       link : "audit-securite"
@@ -95,50 +91,49 @@ service:
     # Service item loop
     - title : "Audit et conseil - Infrastructures courant faible, réseau IP"
       icon : "ti-vector" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Pour nous permettre de mieux appréhender le contexte technique de chaque client et de son système d'informations, nous vous proposons différentes missions d'audit et de conseil :
--	Analyse des coûts Télécom : à partir d'une collecte des factures de l'année, nous analysons chaque coût facturé"
+      content : "Audit réseau, Analyse des coûts Télécom"
       link : "audit-infrastructures"
 
     # Service item loop
     - title : "Lan Managé"
       icon : " ti-hand-drag" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Nous avons pour ambition de développer un portail de services managés, permettant à chaque client d’accéder à la gestion de ses services et au monitoring de ses ressources."
+      content : "Management simplifié et adapté, Monitoring, Cloud Français, RGPD"
       link : "lan-manage"
 
     # Service item loop
     - title : "Affichage dynamique"
       icon : "ti-blackboard" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      content : "Solutions IOT, Management centralisé"
       link : "affichage-dynamique"
 
     # Service item loop
     - title : "Vidéosurveillance - Sonorisation - Contrôle d'accès"
       icon : "ti-video-camera" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      content : ""
       link : "videosurveillance"
 
     # Service item loop
     - title : "IOT"
       icon : "ti-tablet" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      content : "Sécutisation, Monitoring "
       link : "iot"
 
     # Service item loop
     - title : "Maintenance - Interventions sur site"
       icon : "ti-truck" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      content : "Maintenance sur site, SAV, Projets"
       link : "maintenance-interventions"
 
     # Service item loop
     - title : "Recyclage - Destruction - Effacement de données"
       icon : "ti-direction-alt" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      content : "Valorisation du matériel en fin de vie, Destruction de données certifiée"
       link : "recyclage-destruction"
 
     # Service item loop
     - title : "Sauvegarde"
       icon : "ti-save" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+      content : "Sauvegardes, Extrenalisation sur cloud Français, Plan de reprise"
       link : "sauvegarde"
 
 ######################### Clients logo slider ################################
