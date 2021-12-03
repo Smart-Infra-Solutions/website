@@ -8,4 +8,4 @@ photo : "/images/team/dfo.jpg" # image should be squre size
 bg_image : "/images/backgrounds/banner.png"
 ---
 
-Président.
+Président.  
