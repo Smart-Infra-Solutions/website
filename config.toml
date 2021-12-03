@@ -150,16 +150,6 @@ map_marker = "images/marker.png"
 ###################### Clients logo slider ###############################
 
 [[params.clients_logo]]
-logo = "images/clients-logo/Nginx_logo.png"
-url = "https://nginx.com"
-brand = "Nginx"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/Google_logo.png"
-url = "https://google.fr"
-brand = "Google"
-
-[[params.clients_logo]]
 logo = "images/clients-logo/Microsoft_logo.png"
 url = "https://microsoft.fr"
 brand = "Microsoft"
@@ -193,6 +183,16 @@ brand = "Cloudflare"
 logo = "images/clients-logo/digitalocean_logo.png"
 url = "https://www.digitalocean.com/"
 brand = "Nginx"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/Nginx_logo.png"
+url = "https://nginx.com"
+brand = "Nginx"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/Google_logo.png"
+url = "https://google.fr"
+brand = "Google"
 
 ############################# social icon #################################
 #[[params.social]]
