@@ -168,6 +168,9 @@ logo = "images/clients-logo/Mikrotik_logo.png"
 logo = "images/clients-logo/Logo-Docker-.jpg"
 
 [[params.clients_logo]]
+logo = "images/clients-logo/unimus_logo.png"
+
+[[params.clients_logo]]
 logo = "images/clients-logo/clients-logo-2.png"
 
 [[params.clients_logo]]
@@ -184,6 +187,9 @@ logo = "images/clients-logo/Mikrotik_logo.png"
 
 [[params.clients_logo]]
 logo = "images/clients-logo/Logo-Docker-.jpg"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/unimus_logo.png"
 
 ############################# social icon #################################
 #[[params.social]]
