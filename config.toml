@@ -180,7 +180,7 @@ url = "https://cloudflare.com"
 brand = "Cloudflare"
 
 [[params.clients_logo]]
-logo = "images/clients-logo/igitalocean_logo.png"
+logo = "images/clients-logo/Digitalocean_logo.png"
 url = "https://www.digitalocean.com/"
 brand = "Nginx"
 
