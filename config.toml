@@ -155,6 +155,11 @@ url = "https://microsoft.fr"
 brand = "Microsoft"
 
 [[params.clients_logo]]
+logo = "images/clients-logo/Github_logo.png"
+url = "https://github.com"
+brand = "Github"
+
+[[params.clients_logo]]
 logo = "images/clients-logo/Hugo_logo.png"
 url = "https://gohugo.io/"
 brand = "Hugo"
@@ -163,6 +168,11 @@ brand = "Hugo"
 logo = "images/clients-logo/Mikrotik_logo.png"
 url = "https://mikrotik.com/"
 brand = "Mikrotik"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/Drone_logo.png"
+url = "https://drone.io/"
+brand = "Drone"
 
 [[params.clients_logo]]
 logo = "images/clients-logo/Logo-Docker.jpg"
