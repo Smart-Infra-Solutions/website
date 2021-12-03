@@ -171,25 +171,10 @@ logo = "images/clients-logo/Logo-Docker-.jpg"
 logo = "images/clients-logo/unimus_logo.png"
 
 [[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-2.png"
+logo = "images/clients-logo/Cloudflare_logo.png"
 
 [[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-3.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-4.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-5.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/Mikrotik_logo.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/Logo-Docker-.jpg"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/unimus_logo.png"
+logo = "images/clients-logo/digitalocean_logo.png"
 
 ############################# social icon #################################
 #[[params.social]]
