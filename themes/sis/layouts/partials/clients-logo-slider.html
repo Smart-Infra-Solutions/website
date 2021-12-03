@@ -9,8 +9,8 @@
 
     <div class="client-logo-slider">
       {{ range . }}
-      <div class="text-center py-3 px-2"><img class="d-unset img-fluid" src="{{ .logo | absURL }}" alt="client-logo">
-      </div>
+      <a href="{{ .url | relURL }}" target="_blank" alt="{{ .brand }}"><div class="text-center py-3 px-2"><img class="d-unset img-fluid" src="{{ .logo | absURL }}" alt="client-logo">
+      </div></a>
       {{ end }}
     </div>
   </div>
