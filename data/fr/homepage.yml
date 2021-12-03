@@ -115,7 +115,7 @@ service:
     # Service item loop
     - title : "Vidéosurveillance - Sonorisation - Contrôle d'accès"
       icon : "ti-video-camera" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : ""
+      content : "Vidéo sur IP, sonorisation PPMS"
       link : "videosurveillance"
 
     # Service item loop

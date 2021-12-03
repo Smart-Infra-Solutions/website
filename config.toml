@@ -160,6 +160,11 @@ url = "https://github.com"
 brand = "Github"
 
 [[params.clients_logo]]
+logo = "images/clients-logo/Traefik_logo.png"
+url = "https://traefik.io"
+brand = "Traefik"
+
+[[params.clients_logo]]
 logo = "images/clients-logo/Hugo_logo.png"
 url = "https://gohugo.io/"
 brand = "Hugo"
