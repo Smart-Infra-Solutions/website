@@ -140,7 +140,7 @@ service:
     # Service item loop
     - title : "Sauvegarde"
       icon : "ti-save" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Sauvegardes, Extrenalisation sur cloud Français, Plan de reprise"
+      content : "Sauvegardes, Externalisation sur cloud Français, Plan de reprise"
       link : "sauvegarde"
 
 ######################### Clients logo slider ################################
