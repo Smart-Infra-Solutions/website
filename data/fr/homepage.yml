@@ -2,7 +2,7 @@
 banner:
   bg_image: "images/backgrounds/banner.png"
   title : "Connecting Everything"
-  content : "Spécialisée dans la gestion des infrastructures systèmes, réseau et cloud, nous vous offrons une approche innovante dans la fourniture de services managés."
+  content : "Spécialisés dans la gestion des infrastructures systèmes, réseau et cloud, nous vous offrons une approche innovante dans la fourniture de services managés."
 
   # button primary
   button_solid:
