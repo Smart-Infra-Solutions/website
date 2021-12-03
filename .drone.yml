@@ -17,7 +17,8 @@ steps:
   settings:
     host:
       from_secret: websitesynchost
-    user: dockerrunner
+    user:
+      from_secret: id_user
     key:
       from_secret: id_rsadeploy
     passphrase:
@@ -52,6 +53,6 @@ steps:
 
 ---
 kind: signature
-hmac: 2b52f3adaf6670b96e66b700e6e9e9136c0e914e2b996f23aa6f37cca802fb3c
+hmac: f94d3fcfbaf2b625f667aa2444adb5e755bd724a7b1f84ca38db2dac29b64759
 
 ...
