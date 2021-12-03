@@ -155,7 +155,7 @@ url = "https://microsoft.fr"
 brand = "Microsoft"
 
 [[params.clients_logo]]
-logo = "images/clients-logo/Github_logo.png"
+logo = "images/clients-logo/GitHub_logo.png"
 url = "https://github.com"
 brand = "Github"
 
