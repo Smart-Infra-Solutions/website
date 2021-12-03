@@ -2,8 +2,7 @@
 banner:
   bg_image: "images/backgrounds/banner.png"
   title : "Connecting Everything"
-  content : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum voluptatem enim
-            quibusdam a necessitatibus! Adipisci culpa inventore harum optio vitae totam aliquam, iusto minus quo hic ipsam."
+  content : "Spécialisée dans la gestion des infrastructures systèmes, réseau et cloud, nous vous offrons une approche innovante dans la fourniture de services managés."
 
   # button primary
   button_solid:
