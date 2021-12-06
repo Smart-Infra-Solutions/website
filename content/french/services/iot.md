@@ -3,11 +3,13 @@ title : "IOT"
 draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.png"
-# about image
-image: "/images/about/about2.png"
+image: "/images/backgrounds/iot.png"
 # meta description
 description : "IOT"
 aliases :  "/iot"
+tags : ['IOT','Cloud']
+author: "david foltete"
+date: 2021-11-06T15:27:17+06:00
 ---
 
 [Extrait du Journal du Net](<https://www.journaldunet.com/ebusiness/internet-mobile/1501637-proliferation-des-objets-connectes-de-nouveaux-besoins-pour-les-usagers/" > "Journal du Net")  :

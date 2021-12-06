@@ -4,10 +4,13 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.png"
 # about image
-image: "/images/backgrounds/banner.png"
+image: "/images/backgrounds/audit.png"
 # meta description
 description : "Audit infrastructures"
 aliases :  "/audit-infrastructures"
+tags : ['Audit','Cloud','LAN']
+author: "david foltete"
+date: 2021-11-06T15:27:17+06:00
 ---
 Pour nous permettre de mieux appréhender le contexte technique de chaque client et de son système d'informations, nous proposons différentes missions d'audit et de conseil :  
 

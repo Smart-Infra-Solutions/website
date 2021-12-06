@@ -3,11 +3,13 @@ title : "Audit Sécurité"
 draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.png"
-# about image
-# #image: "/images/backgrounds/banner.png"
+image: "/images/backgrounds/audit.png"
 # meta description
 description : "Audit sécurité"
 aliases :  "/audit-securite"
+tags : ['Audit','Cloud','Sécurité']
+author: "david foltete"
+date: 2021-11-06T15:27:17+06:00
 ---
 Chaque réseau est désormais une cible pour la cybercriminalité. Renforcer la sécurité doit être une priorité pour limiter les risques et éviter les menaces.  
 

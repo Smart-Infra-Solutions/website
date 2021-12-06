@@ -4,10 +4,13 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.png"
 # about image
-image: "/images/backgrounds/banner.png"
+image: "/images/backgrounds/lan.png"
 # meta description
 description : "LAN Managé"
 aliases :  "/lan-manage"
+tags : ['Cloud','LAN']
+author: "david foltete"
+date: 2021-11-06T15:27:17+06:00
 ---
 Un réseau IP a besoin d'expertise pour fonctionner correctement et apporter la performance attendue par les usages, toujours plus importants notamment le besoin de connectivité à Internet.  
 Fort d'une expertise d'une vingtaine d'années dans les réseaux d'entreprise, Internet et le Wifi, nous proposons des services clé en main totalement managés, fortement sécurisés et adaptés à votre environnement informatique existant.

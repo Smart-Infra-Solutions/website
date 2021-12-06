@@ -4,10 +4,13 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.png"
 # about image
-image: "/images/backgrounds/banner.png"
+image: "/images/backgrounds/sécurité.png"
 # meta description
 description : "Sauvegarde"
 aliases :  "/sauvegarde"
+tags : ['Cloud','Backup','Sécurité']
+author: "david foltete"
+date: 2021-11-06T15:27:17+06:00
 ---
 La sauvegarde des données est un sujet technique complexe et souvent très mal maîtrisé.
 Un job de sauvegarde n’est d’aucune utilité si les données stockées ne peuvent être correctement restaurées.

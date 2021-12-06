@@ -4,12 +4,13 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.png"
 # about image
-image: "/images/backgrounds/banner.png"
+image: "/images/backgrounds/surveillance.png"
 # meta description
 description : "Vidéo Surveillance / Sonorisation / Controle d'accès"
 aliases :  "/videosurveillance"
-tags : ['VidéoSurveillance','Cloud']
-
+tags : ['VidéoSurveillance','Cloud','IP','Affichage Dynamique']
+author: "david foltete"
+date: 2021-11-06T15:27:17+06:00
 ---
 #### Le réseau IP devient l'infrastructure fédératrice pour de nombreux usages.  
 

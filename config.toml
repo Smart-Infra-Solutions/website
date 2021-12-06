@@ -31,7 +31,6 @@ link = "plugins/themify-icons/themify-icons.css"
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "css/custom.css"
-
 # JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
@@ -82,11 +81,6 @@ weight = 1
 #  URL = "blog"
 
 [[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 4
-
-[[menu.main]]
 name = "Services"
 URL = "services"
 weight = 3
@@ -135,7 +129,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
+enable = true
 label = "contact"
 link = "contact"
 
