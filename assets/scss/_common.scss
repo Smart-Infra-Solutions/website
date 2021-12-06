@@ -234,6 +234,7 @@ blockquote {
 .content {
   * {
     margin-bottom: 20px;
+    text-align: justify;
   }
 
   a {
@@ -366,4 +367,19 @@ textarea.form-control {
 
 .sticky-top {
   top: 100px;
+}
+
+.icons {
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+}
+
+.icons-title {
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+.iconstag:hover {
+  fill: #132337;
 }

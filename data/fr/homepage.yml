@@ -30,28 +30,20 @@ about:
   enable: true
   image : "images/about/about.jpg"
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
-  content : "### Nous sommes là pour simplifier et rationaliser vos systèmes informatiques
+  content : "### Pourquoi faire appel à SIS ?
 
-Pour faire face à l’évolution constante des nouvelles technologies et des usages, il est désormais indispensable de maîtriser parfaitement son système d’informations et de disposer de l’expertise et du savoir-faire nécessaires.
-Maintenir le bon niveau d’expertise de ses équipes internes devient complexe, notamment pour faire face aux nombreuses cyber menaces bien réelles et à la nécessité de renforcer la sécurité des systèmes et réseaux.
-Au cours de ces dernières années, aucune entreprise n'est à l'abri d'une cyber-attaque. Les conséquences sont nombreuses et de plus en plus impactantes.
-Le télétravail et le nomadisme ajoutent une couche de complexité et de vulnérabilité pour les ressources de l’entreprise.
+Pour garantir la protection et la sécurité des données, c'est un enjeu primordial et vital,dans un environnement technique de plus en plus complexe et aux menaces toujours plus agressives.
+Parce que disposer des compétences en interne dans ce contexte devient trop difficile et risqué,
+Nous proposons à nos clients :
 
+-	des prestations d'audit et de conseil Réseaux, Systèmes, Cloud et Sécurité.
 
-Nous souhaitons vous accompagner en vous proposant des solutions clé en main en services managés, adaptées sur mesure avec vous en fonction de vos besoins, votre contexte technique, vos enjeux et votre budget.
-Nous proposons un ensemble de prestations et de services permettant de nous adapter à chaque situation :
+-	un catalogue de services managés, et nous souhaitons étudier avec lui les meilleures solutions techniques adaptées à ses besoins et à son budget.
 
+-	une couverture nationale d'interventions sur site pour la gestion des infrastructures et du SAV
 
-•	Audit – Conseil : analyse de facturation, établissement du périmètre technique, validation du besoin, rédaction cahier des charges, appel d’offres, soutenance et aide à la décision
+N'hésitez pas à nous contacter, nous sommes là pour vous aider !
 
-
-•	Déploiement : gestion des commandes, pilotage, suivi de migration, portabilité des accès
-
-
-•	Interventions sur site : SAV, migration technique, installations, gestion des sites (créations, déménagements, fermetures…)
-
-
-•	Lan managé
 "
   button:
     enable : true

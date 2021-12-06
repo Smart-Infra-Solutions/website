@@ -9,11 +9,12 @@ image: "/images/about/about2.png"
 description : "IOT"
 aliases :  "/iot"
 ---
-Vous avez un projet d'intégration d'objets connectés dans votre système d'informations ?
-Vous souhaitez déployer des objets connectés sans les supporter au niveau des infrastructures de l'entreprise ?
-Nous vous proposons une démarche de conseils et d'accompagnement à la mise en œuvre en intégrant :  
 
-- La sécurisation de vos IOT
--	Les contraintes de raccordement (filaire, wifi, bluetooth, beacon, zigbee…)
--	La sécurisation des objets (réseau, Internet…)
--	Le monitoring
+[Extrait du Journal du Net](<https://www.journaldunet.com/ebusiness/internet-mobile/1501637-proliferation-des-objets-connectes-de-nouveaux-besoins-pour-les-usagers/" > "Journal du Net")  :
+>Chiffres clés
+En 2019, il y avait huit milliards d'objets connectés dans le monde, selon la société de recherche américaine 451 Research, qui prévoit que ce chiffre soit de 13,8 milliards de devices en 2024.
+Les objets connectés ont, à leur origine, été conçus sans prise en compte de l'aspect sécurité. Désormais, le défi des acteurs est de les sécuriser pour garantir la protection des données collectées.
+
+Pour faire face à la croissance exceptionnelle des objets connectés, il est nécessaire de définir une politique de sécurité forte, afin de se protéger des menaces d’exposition de ces nombreux dispositifs connectés.  
+
+Nous vous proposons une prestation de conseil et d’accompagnement à la mise en œuvre de vos objets connectés (définition des exigences de sécurité, étude raccordement réseau, cloisonnement, gestion des flux, monitoring et supervision)

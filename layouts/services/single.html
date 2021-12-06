@@ -5,12 +5,19 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-8">
         <div class="content">
           {{ .Content }}
         </div>
       </div>
-    </div>
+        <div class="col-4">
+        {{ range (.GetTerms "tags") }}
+          <a href="/tags/{{ .LinkTitle | urlize }}">
+          <div class="icons">
+             <img class="iconstag" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="icons-title">{{ .LinkTitle  }}</em>
+          </div></a>
+        {{ end }}
+      </div>
   </div>
 </section>
 
