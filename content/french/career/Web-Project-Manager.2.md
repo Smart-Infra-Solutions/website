@@ -15,6 +15,7 @@ job_type : "Full time"
 job_category : "MySQL Developer"
 # job apply link
 apply_link : "#"
+draft: true
 ---
 
 
