@@ -1,4 +1,4 @@
-{{ with .Page.Params.clients_logo }}
+{{ with .Site.Params.clients_logo }}
 <section class="section-sm bg-light">
   <div class="container">
     <div class="row">
@@ -6,10 +6,12 @@
         <h2 class="section-title">{{i18n "client_slider_title"}}</h2>
       </div>
     </div>
-
     <div class="client-logo-slider">
       {{ range . }}
-      <div class="text-center py-3 px-2"><a href="{{ .url | relURL }}" target="_blank" alt="{{ .brand }}"><img class="d-unset img-fluid" src="{{ .logo | absURL }}" alt="client-logo" /></a>
+      <div class="text-center py-3 px-2">
+        <a href="{{ .url | relURL }}" target="_blank" alt="{{ .brand }}">
+          <img class="d-unset img-fluid" src="{{ .logo | absURL }}" alt="client-logo" />
+        </a>
       </div>
       {{ end }}
     </div>
