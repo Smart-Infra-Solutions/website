@@ -118,7 +118,7 @@ address = "17 Rue DES ACACIAS / 75017 PARIS 17"
 mobile = "+33 1 89 16 87 84"
 email = "contact@si.solutions"
 # contact form action
-contact_form_action = "http://mailform/o365si" # contact form works with https://formspree.io
+contact_form_action = "http://apimailgtw:8080" # contact form works with https://formspree.io
 # search
 search = false
 
