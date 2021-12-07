@@ -132,7 +132,10 @@ preloader = "" # use jpg, png, svg or gif format.
 enable = true
 label = "contact"
 link = "contact"
-
+[params.navigation_button_project]
+enable = true
+label = "Soumettez nous votre projet"
+link = "contact"
 # google map
 [params.map]
 enable = false
