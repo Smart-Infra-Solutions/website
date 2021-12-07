@@ -82,19 +82,19 @@ service:
   service_item:
     # Service item loop
     - title : "Audit et conseil - Sécurité"
-      icon : "ti-unlock" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "Sécurité" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Annuaires, authentifications, sécurité, architecture technique, systèmes"
       link : "audit-securite"
 
     # Service item loop
     - title : "Audit et conseil - Infrastructures courant faible, réseau IP"
-      icon : "ti-vector" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "Audit" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Audit réseau, Analyse des coûts Télécom"
       link : "audit-infrastructures"
 
     # Service item loop
     - title : "Lan Managé"
-      icon : " ti-hand-drag" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "Lan Managé" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Management simplifié et adapté, Monitoring, Cloud Français, RGPD"
       link : "lan-manage"
 
@@ -106,31 +106,31 @@ service:
 
     # Service item loop
     - title : "Vidéosurveillance - Sonorisation - Contrôle d'accès"
-      icon : "ti-video-camera" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "Vidéosurveillance" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Vidéo sur IP, sonorisation PPMS"
       link : "videosurveillance"
 
     # Service item loop
     - title : "IOT"
-      icon : "ti-tablet" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "IOT" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Sécurisation, Monitoring "
       link : "iot"
 
     # Service item loop
     - title : "Maintenance - Interventions sur site"
-      icon : "ti-truck" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "Interventions" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Maintenance sur site, SAV, Projets"
       link : "maintenance-interventions"
 
     # Service item loop
     - title : "Recyclage - Destruction - Effacement de données"
-      icon : "ti-direction-alt" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "Recyclage" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Valorisation du matériel en fin de vie, Destruction de données certifiée"
       link : "recyclage-destruction"
 
     # Service item loop
     - title : "Sauvegarde"
-      icon : "ti-save" # here we use themefy icon pack : https://themify.me/themify-icons
+      icon : "backup" # here we use themefy icon pack : https://themify.me/themify-icons
       content : "Sauvegardes, Externalisation sur cloud Français, Plan de reprise"
       link : "sauvegarde"
 
