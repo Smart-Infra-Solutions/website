@@ -8,7 +8,7 @@ image: "/images/backgrounds/lan.png"
 # meta description
 description : "LAN Managé"
 aliases :  "/lan-manage"
-tags : ['Cloud','IP,''LAN','LAN managé','Wifi','SdWan','Routeur 4G']
+tags : ['Cloud','IP,','LAN','LAN managé','Wifi','SdWan','Routeur 4G']
 author: "david foltete"
 date: 2021-11-06T15:27:17+06:00
 ---
