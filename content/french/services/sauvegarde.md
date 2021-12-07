@@ -8,7 +8,7 @@ image: "/images/backgrounds/backup.png"
 # meta description
 description : "Sauvegarde"
 aliases :  "/sauvegarde"
-tags : ['Cloud','Backup','Sécurité']
+tags : ['Cloud','Backup','Sécurité','IP']
 author: "david foltete"
 date: 2021-11-06T15:27:17+06:00
 ---

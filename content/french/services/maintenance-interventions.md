@@ -8,7 +8,7 @@ image: "/images/backgrounds/interventions.png"
 # meta description
 description : "Maintenance - Interventions sur site"
 aliases :  "/maintenance-interventions"
-tags : ['Interventions','Cloud','SAV','Projets']
+tags : ['Interventions','SAV','Projets']
 author: "david foltete"
 date: 2021-11-06T15:27:17+06:00
 ---
