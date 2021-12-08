@@ -6,7 +6,7 @@ node:
   drone: ch1
 trigger:
   branch:
-  - master
+  - main
   event:
   - push
 
@@ -109,6 +109,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 801b7a2d27b0fb8052d4b558b5e03d1827a9996b4de359d43d09d5d27057f5ee
+hmac: 17052f043abb718ef223f7dd80542ada8d2b739fba8a120bd9915b44c345d7bf
 
 ...
