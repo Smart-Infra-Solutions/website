@@ -4,7 +4,7 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.webp"
 # about image
-image: "/images/backgrounds/lan.png"
+image: "/images/backgrounds/lan.webp"
 # meta description
 description : "LAN Managé"
 aliases :  "/lan-manage"

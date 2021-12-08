@@ -4,7 +4,7 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.webp"
 # about image
-image: "/images/backgrounds/recyclage.png"
+image: "/images/backgrounds/recyclage.webp"
 # meta description
 description : "Recyclage - Destruction - Effacement de données"
 aliases :  "/recyclage-destruction"

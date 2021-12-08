@@ -4,7 +4,7 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.webp"
 # about image
-image: "/images/backgrounds/backup.png"
+image: "/images/backgrounds/backup.webp"
 # meta description
 description : "Sauvegarde"
 aliases :  "/sauvegarde"

@@ -3,7 +3,7 @@ title : "Audit Sécurité"
 draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.webp"
-image: "/images/backgrounds/sécurité.png"
+image: "/images/backgrounds/sécurité.webp"
 # meta description
 description : "Audit sécurité"
 aliases :  "/audit-securite"

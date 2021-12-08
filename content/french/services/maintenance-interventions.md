@@ -4,7 +4,7 @@ draft : false
 # page title background image
 bg_image : "/images/backgrounds/banner.webp"
 # about image
-image: "/images/backgrounds/interventions.png"
+image: "/images/backgrounds/interventions.webp"
 # meta description
 description : "Maintenance - Interventions sur site"
 aliases :  "/maintenance-interventions"
