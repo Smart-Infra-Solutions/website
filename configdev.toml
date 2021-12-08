@@ -125,7 +125,7 @@ search = false
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/about/about2.jpg" # use jpg, png, svg or gif format.
+preloader = "images/about/about2.png" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
