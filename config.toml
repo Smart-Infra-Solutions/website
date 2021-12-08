@@ -108,7 +108,7 @@ weight = 4
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo.webp"
 home = "Home"
 # Meta data
 description = "Sis"
