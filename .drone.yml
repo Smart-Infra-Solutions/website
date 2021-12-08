@@ -15,7 +15,7 @@ steps:
   image: ch1ch1/drone-hugo
   settings:
     hugo_version: 0.89.4
-    args: --minify --config configdev.toml
+    hugo_args: --minify
   commands:
   - hugo --minify
   pull: always
@@ -117,6 +117,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 0796f0dea803f3ff6121eeb81173c2ce37edb0e373cbd8f41f705b9575be5f11
+hmac: 3916ff411de0aa428c4773d28c23680f6c9663e7e0e48aa00ccd3b9f36b977cb
 
 ...
