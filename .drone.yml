@@ -1,7 +1,7 @@
 ---
 kind: pipeline
 type: docker
-name: Sync master
+name: Sync master -${DRONE_EVENT}
 node:
   drone: ch1
 trigger:
@@ -113,6 +113,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 46b5aa6de89a41d4b4de144ed6f998c996966af2cd7c2b5580814b778dcb9667
+hmac: 28d40671a6f3eb6a67586248f0d629aa66760a22c38faadb957f82a48ef57bf1
 
 ...
