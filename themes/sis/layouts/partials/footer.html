@@ -48,11 +48,6 @@
 </script>
 {{ end }}
 
-{{ "<!-- Google Map API -->" | safeHTML }}
-{{ with .Site.Params.map.gmap_api }}
-<script src="{{ . | safeURL }}"></script>
-{{ end }}
-
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
@@ -62,6 +57,7 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
+{{ if hugo.IsProduction }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPZP02DCV6"></script>
 <script>
@@ -70,3 +66,4 @@
   gtag('js', new Date());
   gtag('config', 'G-CPZP02DCV6');
 </script>
+ {{ end }}
