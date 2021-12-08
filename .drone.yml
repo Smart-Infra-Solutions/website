@@ -15,6 +15,8 @@ steps:
   image: ch1ch1/drone-hugo
   settings:
     hugo_version: 0.89.3
+  commands:
+  - hugo --minify
   pull: always
 - name: deploy
   image: appleboy/drone-scp
@@ -71,7 +73,9 @@ steps:
 - name: build
   image: ch1ch1/drone-hugo
   settings:
-    hugo_version: 0.89.3
+    hugo_version: 0.89.4
+  commands:
+  - hugo --minify --config configdev.toml
   pull: always
 - name: deploy
   image: appleboy/drone-scp
@@ -113,6 +117,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 28d40671a6f3eb6a67586248f0d629aa66760a22c38faadb957f82a48ef57bf1
+hmac: a404dad6662b9c9c2729725f7637d6728406e18fc06e4205da6fd3405d621001
 
 ...
