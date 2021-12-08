@@ -28,7 +28,7 @@ cta:
 ################################## about ####################################
 about:
   enable: true
-  image : "images/about/about.jpg"
+  image : "images/about/about.webp"
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
   content : "### Pourquoi faire appel à SIS ?
 
