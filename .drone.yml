@@ -30,6 +30,8 @@ steps:
     target:
         from_secret: path
     overwrite: true
+    strip_components: 1
+    source: public/*
 -   name: purge cache
     image: jetrails/drone-cloudflare-caching
     settings:
@@ -85,6 +87,8 @@ steps:
     target:
         from_secret: pathdev
     overwrite: true
+    strip_components: 1
+    source: public/*
 -   name: purge cache
     image: jetrails/drone-cloudflare-caching
     settings:
@@ -109,6 +113,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 17052f043abb718ef223f7dd80542ada8d2b739fba8a120bd9915b44c345d7bf
+hmac: 46b5aa6de89a41d4b4de144ed6f998c996966af2cd7c2b5580814b778dcb9667
 
 ...
