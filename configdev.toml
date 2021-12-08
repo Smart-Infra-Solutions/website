@@ -177,7 +177,7 @@ url = "https://drone.io/"
 brand = "Drone"
 
 [[params.clients_logo]]
-logo = "images/clients-logo/Logo-Docker.jpg"
+logo = "images/clients-logo/Logo-Docker.webp"
 url = "https://www.docker.com/"
 brand = "Docker"
 
