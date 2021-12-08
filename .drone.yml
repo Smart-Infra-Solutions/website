@@ -68,9 +68,6 @@ trigger:
   - push
 
 steps:
-- name: push env variables
-  image: alpine
-  commands: sed -i 's/si.solutions/dev.si.solutions/g' /drone/srv/config.toml
 - name: build
   image: ch1ch1/drone-hugo
   settings:
@@ -116,6 +113,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 2856a8c7cd4e1a03c7db589f6c4ff730b90d0a72ce1a11cc27be4e2795360ee7
+hmac: 28d40671a6f3eb6a67586248f0d629aa66760a22c38faadb957f82a48ef57bf1
 
 ...
