@@ -41,12 +41,10 @@ link = "plugins/match-height/jquery.matchHeight-min.js"
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/magnific-popup/jquery.magnific.popup.min.js"
-#[[params.plugins.js]]
-#link = "plugins/search/fuse.min.js"
-#[[params.plugins.js]]
-#link = "plugins/search/mark.js"
 [[params.plugins.js]]
-link = "plugins/passiveeventlistener/event.js"
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
 #[[params.plugins.js]]
 #link = "plugins/search/search.js"
 #[[params.plugins.js]]
