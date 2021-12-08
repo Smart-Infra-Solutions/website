@@ -2,7 +2,7 @@
 title : "IOT"
 draft : false
 # page title background image
-bg_image : "/images/backgrounds/banner.png"
+bg_image : "/images/backgrounds/banner.webp"
 image: "/images/backgrounds/iot.png"
 # meta description
 description : "IOT"

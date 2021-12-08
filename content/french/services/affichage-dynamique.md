@@ -2,7 +2,7 @@
 title : "Affichage Dynamique"
 draft : true
 # page title background image
-bg_image : "/images/backgrounds/banner.png"
+bg_image : "/images/backgrounds/banner.webp"
 # about image
 image: "/images/backgrounds/affichage-dynamique.png"
 # meta description

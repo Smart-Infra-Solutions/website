@@ -1,6 +1,6 @@
 ################################# Banner ##################################
 banner:
-  bg_image: "images/backgrounds/banner.png"
+  bg_image: "images/backgrounds/banner.webp"
   title : "Connecting Everything"
   content : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum voluptatem enim
             quibusdam a necessitatibus! Adipisci culpa inventore harum optio vitae totam aliquam, iusto minus quo hic ipsam."

@@ -2,7 +2,7 @@
 title : "LAN Managé"
 draft : false
 # page title background image
-bg_image : "/images/backgrounds/banner.png"
+bg_image : "/images/backgrounds/banner.webp"
 # about image
 image: "/images/backgrounds/lan.png"
 # meta description
