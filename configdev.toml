@@ -111,7 +111,7 @@ weight = 4
 logo = "images/logo.webp"
 home = "Home"
 # Meta data
-description = "Sis"
+description = "Sis - Smart Infra Solutions"
 author = "David Foltete"
 # contact info
 address = "17 Rue DES ACACIAS / 75017 PARIS 17"
@@ -121,6 +121,18 @@ email = "contact@si.solutions"
 contact_form_action = "http://apimailgtw:8080" # contact form works with https://formspree.io
 # search
 search = false
+
+[params.publisher]
+name = "Sis - Smart Infra Solutions"
+
+[params.publisher.logo]
+url = "/images/backgrounds/logoschema.org2.webp"
+
+[params.logo]
+url = "/images/backgrounds/logoschema.org2.webp"
+
+[params.image]
+url = "/images/backgrounds/logoschema.org.webp"
 
 # Preloader
 [params.preloader]
