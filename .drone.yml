@@ -1,0 +1,120 @@
+---
+kind: pipeline
+type: docker
+name: Sync master
+node:
+  drone: ch1
+trigger:
+  branch:
+  - main
+  event:
+  - push
+
+steps:
+- name: build
+  image: ch1ch1/drone-hugo
+  settings:
+    hugo_version: 0.89.4
+    hugo_args: --minify --environment production
+  pull: always
+- name: deploy
+  image: appleboy/drone-scp
+  settings:
+    host:
+      from_secret: websitesynchost
+    user:
+      from_secret: id_user
+    key:
+      from_secret: id_rsadeploy
+    passphrase:
+      from_secret: id_rsapassphrase
+    target:
+        from_secret: path
+    overwrite: true
+    strip_components: 1
+    source: public/*
+-   name: purge cache
+    image: jetrails/drone-cloudflare-caching
+    settings:
+        api_token:
+            from_secret: cloudflare_token
+        zone_identifier:
+            from_secret: cloudflare_zone_identifier
+        action: purge_everything
+- name: notification
+  image: plugins/webhook
+  settings:
+    urls:
+      from_secret: webhookgotify
+    content_type: application/json
+    template: |
+      {
+       "message": "{{ repo.owner }} as updated {{ repo.name }} with {{ build.status }}.",
+       "priority": 4,
+       "title": "{{ repo.name }} build"
+      }
+  when:
+    status: [success, failure]
+
+---
+kind: pipeline
+type: docker
+name: Sync dev
+node:
+  drone: ch1
+trigger:
+  branch:
+  - dev
+  event:
+  - push
+
+steps:
+- name: build
+  image: ch1ch1/drone-hugo
+  settings:
+    hugo_version: 0.89.4
+    hugo_args: --minify --config configdev.toml --environment devel
+  pull: always
+- name: deploy
+  image: appleboy/drone-scp
+  settings:
+    host:
+      from_secret: websitesynchost
+    user:
+      from_secret: id_user
+    key:
+      from_secret: id_rsadeploy
+    passphrase:
+      from_secret: id_rsapassphrase
+    target:
+        from_secret: pathdev
+    overwrite: true
+    strip_components: 1
+    source: public/*
+-   name: purge cache
+    image: jetrails/drone-cloudflare-caching
+    settings:
+        api_token:
+            from_secret: cloudflare_token
+        zone_identifier:
+            from_secret: cloudflare_zone_identifier
+        action: purge_everything
+- name: notification
+  image: plugins/webhook
+  settings:
+    urls:
+      from_secret: webhookgotify
+    content_type: application/json
+    template: |
+      {
+       "message": "{{ repo.owner }} as updated {{ repo.name }} with {{ build.status }}.",
+       "priority": 4,
+       "title": "{{ repo.name }} build"
+      }
+  when:
+    status: [success, failure]
+---
+kind: signature
+hmac: 6f61ae73290f26cca2bdd22cd2b0d37b9e8c747156750e4062bc84ccfbb5a0d1
+
+...
