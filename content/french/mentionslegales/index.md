@@ -9,6 +9,7 @@ draft: false
 description : "Mentions légales"
 author: "david foltete"
 date: 2021-11-06T15:27:17+06:00
+robotsdisallow: "true"
 ---
 
 > Merci de lire attentivement les présentes modalités d’utilisation du présent site avant de le parcourir. En vous connectant sur ce site, vous acceptez sans réserve les présentes modalités.
