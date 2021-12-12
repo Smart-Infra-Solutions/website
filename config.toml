@@ -11,9 +11,10 @@ summaryLength = "10"
 # disable language
 disableLanguages = ['en']
 defaultContentLanguage = "fr"
+enableRobotsTXT = "true"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-enableRobotsTXT = "true"
+
 
 ############################# Plugins ##############################
 
