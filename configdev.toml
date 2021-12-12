@@ -13,7 +13,7 @@ disableLanguages = ['en']
 defaultContentLanguage = "fr"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-enableRobotsTXT = true
+enableRobotsTXT = "true"
 
 ############################# Plugins ##############################
 
