@@ -54,7 +54,6 @@
             "@type": "Article",
             "headline": "{{ .Title }}",
             "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
-            "url": "{{ .Permalink }}",
             "datePublished": "{{ time .Date }}",
             "description": "{{ .Description }}",
             "author": {
@@ -70,7 +69,6 @@
           "@type": "Article",
           "headline": "{{ .Title }}",
           "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
-          "url": "{{ .Permalink }}",
           "datePublished": "{{ time .Date }}",
           "description": "{{ .Description }}",
           "author": {
