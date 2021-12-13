@@ -1,7 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://dev.si.solutions/"
 title = "Smart Infra Solutions"
-title2 = "SIS"
 theme = ["hugo-cloak-email", "sis"]
 # post pagination
 paginate = "6"
@@ -109,6 +108,8 @@ weight = 4
 #################### default parameters ################################
 [params]
 logo = "images/logo.webp"
+title = "Smart Infra Solutions"
+title2 = "SIS"
 home = "Home"
 # Meta data
 description = "Sis"
