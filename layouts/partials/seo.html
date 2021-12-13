@@ -49,6 +49,8 @@
         {{if eq .Section "post"}}
         {
             "@context": "http://schema.org",
+            "url": "{{ .Permalink }}",
+            "image": "{{ .Permalink }}images/about/logo.webp",
             "@type": "Article",
             "headline": "{{ .Title }}",
             "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
@@ -63,6 +65,8 @@
         {{ else }}
         {
           "@context": "http://schema.org",
+          "url": "{{ .Permalink }}",
+          "image": "{{ .Permalink }}images/about/logo.webp",
           "@type": "Article",
           "headline": "{{ .Title }}",
           "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
