@@ -23,6 +23,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Corporation",
+      "name": "{{ .Site.Params.title }}",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Paris, France",
@@ -31,7 +32,6 @@
       },
       "email": "contact(at)si.solutions",
       "description": "{{ .Site.Params.description }}",
-      "name": "{{ .Site.Params.title }}",
       "alternateName": "{{ .Site.Params.title2 }}",
       "url": "{{ .Permalink }}",
       "telephone": "+33 1 89 16 87 84",
