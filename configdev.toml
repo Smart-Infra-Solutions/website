@@ -1,6 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://dev.si.solutions/"
 title = "Smart Infra Solutions"
+title2 = "SIS"
 theme = ["hugo-cloak-email", "sis"]
 # post pagination
 paginate = "6"
