@@ -2,8 +2,8 @@
 title : "IOT"
 draft : false
 # page title background image
-bg_image : "/images/backgrounds/banner.webp"
-image: "/images/backgrounds/iot.webp"
+bg_image : "images/backgrounds/banner.webp"
+image: "images/backgrounds/iot.webp"
 # meta description
 description : "IOT"
 aliases :  "/iot"

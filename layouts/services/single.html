@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-8">
         <div class="content">
-          <img class="d-unset img-fluid bannerimg" height="2em" src="{{ .Params.image }}" alt="{{ .LinkTitle  }}" />
+          <img class="d-unset img-fluid bannerimg" height="2em" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .LinkTitle  }}" />
           {{ .Content }}
         </div>
       </div>
