@@ -14,7 +14,7 @@ steps:
 - name: build
   image: ch1ch1/drone-hugo
   settings:
-    hugo_version: 0.89.4
+    hugo_version: 0.90.1
     hugo_args: --minify --environment production
   pull: always
 - name: deploy
@@ -115,6 +115,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 6f61ae73290f26cca2bdd22cd2b0d37b9e8c747156750e4062bc84ccfbb5a0d1
+hmac: e4984cfe10e590713138b434fea64566be02aea311c3a470e38cc017e1147f43
 
 ...
