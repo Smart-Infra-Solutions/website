@@ -2,9 +2,9 @@
 title : "Recyclage - Destruction - Effacement de données"
 draft : false
 # page title background image
-bg_image : "/images/backgrounds/banner.webp"
+bg_image : "images/backgrounds/banner.webp"
 # about image
-image: "/images/backgrounds/recyclage.webp"
+image: "images/backgrounds/recyclage.webp"
 # meta description
 description : "Recyclage - Destruction - Effacement de données"
 aliases :  "/recyclage-destruction"

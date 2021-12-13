@@ -2,9 +2,9 @@
 title : "Maintenance - Interventions sur site"
 draft : false
 # page title background image
-bg_image : "/images/backgrounds/banner.webp"
+bg_image : "images/backgrounds/banner.webp"
 # about image
-image: "/images/backgrounds/interventions.webp"
+image: "images/backgrounds/interventions.webp"
 # meta description
 description : "Maintenance - Interventions sur site"
 aliases :  "/maintenance-interventions"

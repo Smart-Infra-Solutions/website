@@ -2,9 +2,9 @@
 title : "Vidéo Surveillance"
 draft : false
 # page title background image
-bg_image : "/images/backgrounds/banner.webp"
+bg_image : "images/backgrounds/banner.webp"
 # about image
-image: "/images/backgrounds/surveillance.webp"
+image: "images/backgrounds/surveillance.webp"
 # meta description
 description : "Vidéo Surveillance / Sonorisation / Controle d'accès"
 aliases :  "/videosurveillance"

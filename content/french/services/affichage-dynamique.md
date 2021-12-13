@@ -2,8 +2,8 @@
 title : "Affichage Dynamique"
 draft : true
 # page title background image
-bg_image : "/images/backgrounds/banner.webp"
-image: "/images/backgrounds/affichage-dynamique.webp"
+bg_image : "images/backgrounds/banner.webp"
+image: "images/backgrounds/affichage-dynamique.webp"
 # meta description
 description : "Affichage Dynamique"
 aliases :  "/affichage-dynamique"
