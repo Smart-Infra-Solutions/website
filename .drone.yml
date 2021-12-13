@@ -72,7 +72,7 @@ steps:
 - name: build
   image: ch1ch1/drone-hugo
   settings:
-    hugo_version: 0.89.4
+    hugo_version: 0.90.1
     hugo_args: --minify --config configdev.toml --environment devel
   pull: always
 - name: deploy
@@ -115,6 +115,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: e4984cfe10e590713138b434fea64566be02aea311c3a470e38cc017e1147f43
+hmac: 8e9f0f67b220229e2792d6ae6aa9926232aec9a996d23b812356deb62e8235f2
 
 ...
