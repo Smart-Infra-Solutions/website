@@ -41,9 +41,6 @@ steps:
         zone_identifier:
             from_secret: cloudflare_zone_identifier
         action: purge_everything
-    depends_on:
-        - build
-        - deploy
 - name: notification
   image: plugins/webhook
   settings:
@@ -58,9 +55,6 @@ steps:
       }
   when:
     status: [success, failure]
-  depends_on:
-    - build
-    - deploy
 
 ---
 kind: pipeline
@@ -121,6 +115,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: b3d2d60c9cd9af4114731b436116eba9a5ef6a220cb51358b98539ff5466e3e8
+hmac: 7c1512720d53cb930d12c2bce2126757883c1200127a8ad9163703de2cd5ac46
 
 ...
