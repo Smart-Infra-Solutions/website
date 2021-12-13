@@ -24,7 +24,7 @@
       "@context": "https://schema.org",
       "@type": "Corporation",
       "name": "{{ .Site.Params.title }}",
-      "image": "{{ .Permalink }}images/about/logo.webp",
+      "image": "{{ .Site.BaseURL }}images/about/logo.webp",
       "openingHours":["Mo-Fr 9:00-19:00"],
       "address": {
         "@type": "PostalAddress",
@@ -50,7 +50,7 @@
         {
           "@context": "http://schema.org",
           "url": "{{ .Permalink }}",
-          "image": "{{ .Permalink }}images/about/logo.webp",
+          "image": "{{ .Site.BaseURL }}images/about/logo.webp",
           "@type": "Article",
           "headline": "{{ .Title }}",
           "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
