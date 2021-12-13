@@ -73,7 +73,8 @@
           "description": "{{ .Description }}",
           "author": {
               "@type": "Person",
-              "name": "{{ .Site.Params.author }}"
+              "name": "{{ .Params.author }}"
+              "url": "{{ .Site.BaseURL }}author/{{ .Params.Author | urlize }}",
             }
         }
 
