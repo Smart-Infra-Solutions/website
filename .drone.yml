@@ -49,7 +49,7 @@ steps:
     content_type: application/json
     template: |
       {
-       "message": "{{ repo.owner }} as updated {{ repo.name }} with {{ build.status }}.",
+       "message": "{{ repo.owner }} as updated {{ repo.name }} {{ build.branch }} with {{ build.status }}.",
        "priority": 4,
        "title": "{{ repo.name }} build"
       }
@@ -107,7 +107,7 @@ steps:
     content_type: application/json
     template: |
       {
-       "message": "{{ repo.owner }} as updated {{ repo.name }} with {{ build.status }}.",
+       "message": "{{ repo.owner }} as updated {{ repo.name }} {{ build.branch }} with {{ build.status }}.",
        "priority": 4,
        "title": "{{ repo.name }} build"
       }
@@ -115,6 +115,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 8e9f0f67b220229e2792d6ae6aa9926232aec9a996d23b812356deb62e8235f2
+hmac: 7c1512720d53cb930d12c2bce2126757883c1200127a8ad9163703de2cd5ac46
 
 ...
