@@ -4,17 +4,19 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Title2 }}{{ else }} - {{ .Site.Title }}{{ end }}" />
     <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
-    <meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Description }}{{ else }} - {{ .Site.Title }}{{ end }}" />
     <meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
     <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
     <!-- OG data -->
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-    <meta property="og:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Description }}{{ else }} - {{ .Site.Title }}{{ end }}">
+    <meta property="og:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.title2 }}{{ else }} - {{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" >
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/about/logo.webp" />
+    <meta property="og:logo" content="{{ .Site.BaseURL }}images/about/about2.webp" />
     {{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
     {{ if isset .Params "date" }}<meta property="article:published_time" content="{{ time .Date }}" />{{ end }}
 
@@ -39,7 +41,7 @@
       "telephone": "+33 1 89 16 87 84",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ .Permalink }}images/about/about2.webp"
+        "url": "{{ .Site.BaseURL }}images/about/about2.webp"
         }
     }
     </script>
