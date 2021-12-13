@@ -48,17 +48,18 @@
         <script type="application/ld+json">
         {{if eq .Section "post"}}
         {
-            "@context": "http://schema.org",
-            "url": "{{ .Permalink }}",
-            "image": "{{ .Permalink }}images/about/logo.webp",
-            "@type": "Article",
-            "headline": "{{ .Title }}",
-            "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
-            "datePublished": "{{ time .Date }}",
-            "description": "{{ .Description }}",
-            "author": {
-                "@type": "Person",
-                "name": "{{ .Site.Params.author }}"
+          "@context": "http://schema.org",
+          "url": "{{ .Permalink }}",
+          "image": "{{ .Permalink }}images/about/logo.webp",
+          "@type": "Article",
+          "headline": "{{ .Title }}",
+          "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
+          "datePublished": "{{ time .Date }}",
+          "description": "{{ .Description }}",
+          "author": {
+              "@type": "Person",
+              "name": "{{ .Params.author }}"
+              "url": "{{ .Site.BaseURL }}author/{{ .Params.Author | urlize }}",
             }
          }
         {{ else }}
