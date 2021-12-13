@@ -1,6 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://si.solutions/"
 title = "Smart Infra Solutions"
+title2 = "SIS"
 theme = ["hugo-cloak-email", "sis"]
 # post pagination
 paginate = "6"
@@ -109,7 +110,7 @@ weight = 4
 logo = "images/logo.webp"
 home = "Home"
 # Meta data
-description = "Sis"
+description = "Connecting Everything"
 author = "David Foltete"
 # contact info
 address = "17 Rue DES ACACIAS / 75017 PARIS 17"
