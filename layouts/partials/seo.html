@@ -34,8 +34,11 @@
       "name": "{{ .Site.Params.title }}",
       "alternateName": "{{ .Site.Params.title2 }}",
       "url": "{{ .Permalink }}",
-      "logo": "{{ .Permalink }}/images/about/about2.png",
       "telephone": "+33 1 89 16 87 84"
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Permalink }}/images/about/about2.png"
+        }
     }
     </script>
     {{ end }}
