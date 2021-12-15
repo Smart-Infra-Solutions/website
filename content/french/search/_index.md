@@ -1,6 +1,6 @@
 ---
 title: "Search Result"
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/search-page.jpg"
 # meta description

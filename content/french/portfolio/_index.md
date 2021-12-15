@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/portfolio-page.jpg"
 # meta description

@@ -1,6 +1,6 @@
 ---
 title: "Database Management"
-draft: false
+draft: true
 # portfolio image
 image: "images/portfolio/portfolio-6.png"
 # page title background image

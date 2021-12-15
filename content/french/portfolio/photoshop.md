@@ -1,6 +1,6 @@
 ---
 title: "Photoshop Design"
-draft: false
+draft: true
 # portfolio image
 image: "images/portfolio/portfolio-2.png"
 # page title background image
