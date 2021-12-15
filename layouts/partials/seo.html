@@ -28,14 +28,6 @@
       "image": "{{ .Site.BaseURL }}images/about/logo.webp",
       "openingHours":["Mo-Fr 9:00-19:00"],
       "legalName": "{{ .Site.Params.title }}",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Paris",
-        "postalCode": "75017",
-        "streetAddress": "17 Rue des Acacias",
-        "addressCountry": "FR",
-        "hasMap": "https://www.google.com/maps/place/Smart+Infra+Solutions/@46.2192649,2.0517,6z/data=!4m5!3m4!1s0x0:0x24a639f624542282!8m2!3d46.2192649!4d2.0517"
-      },
       "email": "contact(at)si.solutions",
       "description": "{{ .Site.Params.description }}",
       "alternateName": "{{ .Site.Params.title2 }}",
@@ -44,7 +36,26 @@
       "logo": {
         "@type": "ImageObject",
         "url": "{{ .Site.BaseURL }}images/about/about2.webp"
-        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Paris",
+        "postalCode": "75017",
+        "streetAddress": "17 Rue des Acacias",
+        "addressCountry": "FR",
+        "hasMap": "https://www.google.com/maps/place/Smart+Infra+Solutions/@46.2192649,2.0517,6z/data=!4m5!3m4!1s0x0:0x24a639f624542282!8m2!3d46.2192649!4d2.0517"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "100",
+        "bestRating": "100",
+        "ratingCount": "1"
+      },
+      "SiteNavigationElement": {
+        ""
+
+
+      }
     }
     </script>
     {{ end }}
