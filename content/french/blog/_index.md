@@ -1,6 +1,6 @@
 ---
 title: "Latest News"
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/banner.webp"
 # meta description

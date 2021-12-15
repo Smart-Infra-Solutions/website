@@ -1,6 +1,6 @@
 ---
 title: "Logo Design"
-draft: false
+draft: true
 # portfolio image
 image: "images/portfolio/portfolio-3.png"
 # page title background image

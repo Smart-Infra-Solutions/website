@@ -1,6 +1,6 @@
 ---
 title: "Career"
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/career-page.jpg"
 # meta description

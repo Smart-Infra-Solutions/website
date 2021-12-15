@@ -1,6 +1,6 @@
 ---
 title: "Web Development"
-draft: false
+draft: true
 # portfolio image
 image: "images/portfolio/portfolio-1.png"
 # page title background image

@@ -1,6 +1,6 @@
 ---
 title: "Web Hosting"
-draft: false
+draft: true
 # portfolio image
 image: "images/portfolio/portfolio-4.png"
 # page title background image

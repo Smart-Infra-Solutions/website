@@ -1,6 +1,6 @@
 ---
 title: "Cloud Service"
-draft: false
+draft: true
 # portfolio image
 image: "images/portfolio/portfolio-5.png"
 # page title background image
