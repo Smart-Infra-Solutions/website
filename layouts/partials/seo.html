@@ -67,6 +67,11 @@
            "ratingValue": "100",
            "bestRating": "100",
            "ratingCount": "1"
+         },
+         "potentialAction": {
+           "@type": "SearchAction",
+           "target": "{{ .Site.BaseURL }}search/?s={search_term_string}",
+           "query-input": "required name=search_term_string"
          }
       }
 
