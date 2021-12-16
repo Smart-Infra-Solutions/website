@@ -8,8 +8,8 @@
       <div class="col-lg-12 d-md-none">
         <div class="icons pb-5 d-flex justify-content-center">
       {{ range (.GetTerms "tags") }}
-          <a class="d-inline p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
-           <img class="d-unset img-fluid icons-logo " src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="iconstag">{{ .LinkTitle  }}</em>
+          <a class="text-center p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
+           <img class="d-unset icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
           </a>
       {{ end }}
     </div>
