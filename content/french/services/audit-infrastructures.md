@@ -7,7 +7,7 @@ image: "images/backgrounds/audit.png"
 # meta description
 description : "Audit réseau, Analyse des coûts Télécom"
 aliases :  "/audit-infrastructures"
-tags : ['Audit','Cloud','LAN','Wifi','SdWan','IP']
+tags : ['Audit','Cloud',Wifi','SdWan','IP']
 author : "david foltete"
 date : 2021-11-06T15:27:17+06:00
 services : true
