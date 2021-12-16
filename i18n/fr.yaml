@@ -81,3 +81,6 @@
 
 - id: leave_message
   translation: Laissez nous un message
+
+- id: posted_on
+  translation: le

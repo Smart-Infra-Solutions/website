@@ -27,7 +27,7 @@
          "legalName": "{{ .Site.Params.title }}",
          "name": "{{ .Site.Params.title }}",
          "image": "{{ .Site.BaseURL }}images/about/logo.webp",
-         "priceRange": "$$",
+         "priceRange": "€€",
          "@id": "",
          "url": "{{ .Permalink }}",
          "telephone": "+33 1 89 16 87 84",
@@ -86,7 +86,7 @@
           "description": "{{ .Description }}",
           "author": {
               "@type": "Person",
-              "name": "{{ .Params.author }}",
+              "name": "{{ .Params.Author | title }}",
               "url": "{{ .Site.BaseURL }}author/{{ .Params.Author | urlize }}"
             }
          }
@@ -102,7 +102,7 @@
           "description": "{{ .Description }}",
           "author": {
               "@type": "Person",
-              "name": "{{ .Params.author }}",
+              "name": "{{ .Params.Author | title }}",
               "url": "{{ .Site.BaseURL }}author/{{ .Params.Author | urlize }}"
             }
         }
