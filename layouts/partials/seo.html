@@ -89,7 +89,7 @@
     {{ end }}
     {{ if .IsPage }}
         <script type="application/ld+json">
-        {{if eq .Section "post"}}
+        {{if .Params.services }}
         {
           "@context": "http://schema.org",
           "url": "{{ .Permalink }}",
