@@ -6,7 +6,7 @@ bg_image : "images/backgrounds/banner.webp"
 # about image
 image: "images/backgrounds/backup.webp"
 # meta description
-description : "Sauvegarde"
+description : "Sauvegardes, Externalisation sur cloud Français, Plan de reprise"
 aliases :  "/sauvegarde"
 tags : ['Cloud','Backup','Sécurité','IP']
 author: "david foltete"

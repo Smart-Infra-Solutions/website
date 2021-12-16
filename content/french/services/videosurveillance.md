@@ -6,7 +6,7 @@ bg_image : "images/backgrounds/banner.webp"
 # about image
 image: "images/backgrounds/surveillance.webp"
 # meta description
-description : "Vidéo Surveillance / Sonorisation / Controle d'accès"
+description : "Vidéo sur IP, sonorisation PPMS, Controle d'accès"
 aliases :  "/videosurveillance"
 tags : ['VidéoSurveillance','Cloud','IP','Affichage Dynamique']
 author: "david foltete"

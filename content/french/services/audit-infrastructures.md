@@ -5,7 +5,7 @@ draft : false
 bg_image : "images/backgrounds/banner.webp"
 image: "images/backgrounds/audit.png"
 # meta description
-description : "Audit infrastructures"
+description : "Audit réseau, Analyse des coûts Télécom"
 aliases :  "/audit-infrastructures"
 tags : ['Audit','Cloud','LAN','Wifi','SdWan','IP']
 author: "david foltete"

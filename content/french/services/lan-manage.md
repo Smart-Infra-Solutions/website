@@ -6,7 +6,7 @@ bg_image : "images/backgrounds/banner.webp"
 # about image
 image: "images/backgrounds/lan.webp"
 # meta description
-description : "LAN Managé"
+description : "Management simplifié et adapté, Monitoring, Cloud Français, RGPD"
 aliases :  "/lan-manage"
 tags : ['Cloud','IP,','LAN','LAN managé','Wifi','SdWan','Routeur 4G']
 author: "david foltete"

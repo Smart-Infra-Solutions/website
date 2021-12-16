@@ -6,7 +6,7 @@ bg_image : "images/backgrounds/banner.webp"
 # about image
 image: "images/backgrounds/recyclage.webp"
 # meta description
-description : "Recyclage - Destruction - Effacement de données"
+description : "Valorisation du matériel en fin de vie, Destruction de données certifiée"
 aliases :  "/recyclage-destruction"
 tags : ['Recyclage','Interventions']
 author: "david foltete"

@@ -5,7 +5,7 @@ draft : false
 bg_image : "images/backgrounds/banner.webp"
 image: "images/backgrounds/iot.webp"
 # meta description
-description : "IOT"
+description : "Sécurisation, Monitoring"
 aliases :  "/iot"
 tags : ['IOT','Cloud','IP']
 author: "david foltete"
