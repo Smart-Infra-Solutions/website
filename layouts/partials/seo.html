@@ -25,7 +25,6 @@
       "@context": "https://schema.org",
       "@type": "Corporation",
       "name": "{{ .Site.Params.title }}",
-      "alternateName": "{{ .Site.Params.title2 }}",
       "image": "{{ .Site.BaseURL }}images/about/logo.webp",
       "openingHours":["Mo-Fr 9:00-19:00"],
       "legalName": "{{ .Site.Params.title }}",
@@ -62,10 +61,17 @@
         "telephone": "+33 1 89 16 87 84",
         "contactType": "customer service",
         "email": "contact@si.solutions",
-        "contactOption": "TollFree",
         "areaServed": "FR",
         "availableLanguage": "fr"
-      }
+      },
+      {
+      "@type": "ContactPoint",
+      "telephone": "+33 1 89 16 87 84",
+      "contactType": "sales",
+      "email": "contact@si.solutions",
+      "areaServed": "FR",
+      "availableLanguage": "fr"
+     }
     }
     </script>
     {{ end }}
