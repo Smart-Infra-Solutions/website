@@ -20,7 +20,7 @@
           {{ .Content }}
         </div>
       </div>
-        <div class="col-md-4 d-none d-md-block">
+        <div class="col-md-4 d-none d-lg-block">
         {{ range (.GetTerms "tags") }}
           <div class="icons">
             <a class="px-3 py-2 d-block bg-light" href="/tags/{{ .LinkTitle | urlize }}">
