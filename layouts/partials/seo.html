@@ -68,10 +68,15 @@
            "bestRating": "100",
            "ratingCount": "1"
          },
+         "@type": "WebSite",
+         "url": "https://www.example.com/",
          "potentialAction": {
            "@type": "SearchAction",
-           "target": "{{ .Site.BaseURL }}search/?s={search_term_string}",
-           "query-input": "required name=search_term_string"
+           "target": {
+           "@type": "EntryPoint",
+           "urlTemplate": "{{ .Permalink }}/search/?s={search_term_string}"
+           },
+         "query-input": "required name=search_term_string"
          }
       }
 
