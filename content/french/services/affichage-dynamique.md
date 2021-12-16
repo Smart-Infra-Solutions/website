@@ -10,4 +10,5 @@ aliases :  "/affichage-dynamique"
 tags : ['Affichage Dynamique','Cloud','IP']
 author: "david foltete"
 date: 2021-11-06T15:27:17+06:00
+services: true
 ---

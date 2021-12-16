@@ -8,9 +8,11 @@ image: "images/backgrounds/audit.png"
 description : "Audit réseau, Analyse des coûts Télécom"
 aliases :  "/audit-infrastructures"
 tags : ['Audit','Cloud','LAN','Wifi','SdWan','IP']
-author: "david foltete"
-date: 2021-11-06T15:27:17+06:00
+author : "david foltete"
+date : 2021-11-06T15:27:17+06:00
+services : true
 ---
+
 Pour nous permettre de mieux appréhender le contexte technique de chaque client et de son système d'informations, nous proposons différentes missions d'audit et de conseil :  
 
 -	Audit réseau - analyse des coûts Télécom : à partir d’une collecte des factures de l’année des différents coûts réseaux (réseau fixe, réseau mobile data, téléphonie fixe, téléphonie mobile…), nous analysons chaque coût facturé et nous établissons le périmètre technique de la totalité des services, coûts et sites.
