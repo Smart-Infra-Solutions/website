@@ -21,58 +21,50 @@
 
     {{ if .IsHome }}
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Corporation",
-      "name": "{{ .Site.Params.title }}",
-      "image": "{{ .Site.BaseURL }}images/about/logo.webp",
-      "openingHours":["Mo-Fr 9:00-19:00"],
-      "legalName": "{{ .Site.Params.title }}",
-      "email": "contact(at)si.solutions",
-      "description": "{{ .Site.Params.description }}",
-      "alternateName": "{{ .Site.Params.title2 }}",
-      "url": "{{ .Permalink }}",
-      "telephone": "+33 1 89 16 87 84",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ .Site.BaseURL }}images/about/about2.webp"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Paris",
-        "postalCode": "75017",
-        "streetAddress": "17 Rue des Acacias",
-        "addressCountry": "FR",
-        "geo": {
-         "@type": "GeoCoordinates",
-         "latitude": "46.2192649",
-         "longitude": "2.051700"
-         },
-        "hasMap": "https://www.google.com/maps/place/Smart+Infra+Solutions/@46.2192649,2.0517,6z/data=!4m5!3m4!1s0x0:0x24a639f624542282!8m2!3d46.2192649!4d2.0517"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "100",
-        "bestRating": "100",
-        "ratingCount": "1"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+33 1 89 16 87 84",
-        "contactType": "customer service",
-        "email": "contact@si.solutions",
-        "areaServed": "FR",
-        "availableLanguage": "fr"
-      },
       {
-      "@type": "ContactPoint",
-      "telephone": "+33 1 89 16 87 84",
-      "contactType": "sales",
-      "email": "contact@si.solutions",
-      "areaServed": "FR",
-      "availableLanguage": "fr"
-     }
-    }
+         "@context": "https://schema.org",
+         "@type": "LocalBusiness",
+         "legalName": "{{ .Site.Params.title }}",
+         "name": "{{ .Site.Params.title }}",
+         "image": "{{ .Site.BaseURL }}images/about/logo.webp",
+         "@id": "",
+         "url": "{{ .Permalink }}",
+         "telephone": "+33 1 89 16 87 84",
+         "address": {
+           "@type": "PostalAddress",
+           "streetAddress": "17 Rue des Acacias",
+           "addressLocality": "Paris",
+           "postalCode": "75017",
+           "addressCountry": "FR"
+         },
+         "geo": {
+           "@type": "GeoCoordinates",
+           "latitude": 46.2192649,
+           "longitude": 2.051700
+         },
+         "openingHoursSpecification": {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": ,
+           "opens": "09:00",
+           "closes": "19:00"
+         },
+         "sameAs": "https://github.com/Smart-Infra-Solutions",
+         "contactPoint": {
+           "@type": "ContactPoint",
+           "telephone": "+33 1 89 16 87 84",
+           "contactType": "customer service",
+           "email": "contact@si.solutions",
+           "areaServed": "FR",
+           "availableLanguage": "fr"
+         },
+         "aggregateRating": {
+           "@type": "AggregateRating",
+           "ratingValue": "100",
+           "bestRating": "100",
+           "ratingCount": "1"
+         }
+      }
+
     </script>
     {{ end }}
     {{ if .IsPage }}
