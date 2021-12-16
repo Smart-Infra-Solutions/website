@@ -5,11 +5,11 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 d-md-none">
-        <div class="tailleminicon pb-5 d-flex justify-content-center">
+      <div class="col-lg-12 d-xl-none">
+        <div class="pb-4 d-flex justify-content-center">
       {{ range (.GetTerms "tags") }}
-          <a class="text-center p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
-           <img class="d-unset iconratio60" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
+          <a class="d-block w-15 text-center p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
+           <img class="d-block iconratio60" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
           </a>
       {{ end }}
     </div>
@@ -20,7 +20,7 @@
           {{ .Content }}
         </div>
       </div>
-        <div class="col-md-4 d-none d-md-block">
+        <div class="col-md-4 d-none d-lg-block">
         {{ range (.GetTerms "tags") }}
           <div class="icons">
             <a class="px-3 py-2 d-block bg-light" href="/tags/{{ .LinkTitle | urlize }}">

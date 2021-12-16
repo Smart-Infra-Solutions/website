@@ -399,12 +399,16 @@ textarea.form-control {
    height: auto;
    margin-bottom: 3em;
 }
+
 .iconratio60 {
    max-width: 40% !important;
+   margin-left: auto !important;
+   margin-right: auto !important;
 }
-.tailleminicon {
-   min-width: 150px !important;
-}
+
 .client-logo {
   width: 140px;
+}
+.w-15 {
+  width: 25% !important;
 }
