@@ -120,7 +120,7 @@ email = "contact@si.solutions"
 # contact form action
 contact_form_action = "http://apimailgtw:8080" # contact form works with https://formspree.io
 # search
-search = false
+search = true
 
 # Preloader
 [params.preloader]

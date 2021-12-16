@@ -47,8 +47,8 @@ link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/passiveeventlistener/event.js"
 
-#[[params.plugins.js]]
-#link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
 #[[params.plugins.js]]
 #link = "plugins/google-map/gmap.js"
 
@@ -121,7 +121,7 @@ email = "contact@si.solutions"
 # contact form action
 contact_form_action = "http://apimailgtw:8080" # contact form works with https://formspree.io
 # search
-search = false
+search = true
 
 # Preloader
 [params.preloader]
