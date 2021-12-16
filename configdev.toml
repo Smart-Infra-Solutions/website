@@ -139,11 +139,7 @@ label = "Soumettez nous votre projet"
 link = "contact"
 # google map
 [params.map]
-enable = false
-map_latitude = "48.876850399160524"
-map_longitude = "2.2913078995031624"
-map_marker = "images/marker.png"
-
+enable = true
 
 ###################### Clients logo slider ###############################
 
