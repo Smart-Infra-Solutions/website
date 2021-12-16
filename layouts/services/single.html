@@ -9,7 +9,7 @@
         <div class="icons pb-5 d-flex justify-content-center">
       {{ range (.GetTerms "tags") }}
           <a class="d-inline p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
-           <img class="d-unset img-fluid icons-logo " src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" />
+           <img class="d-unset img-fluid icons-logo " src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="iconstag">{{ .LinkTitle  }}</em>
           </a>
       {{ end }}
     </div>
