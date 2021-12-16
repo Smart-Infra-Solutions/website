@@ -48,8 +48,8 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
+#[[params.plugins.js]]
+#link = "plugins/google-map/gmap.js"
 
 ############################## navigation ###############################
 # main menu
@@ -139,7 +139,7 @@ label = "Soumettez nous votre projet"
 link = "contact"
 # google map
 [params.map]
-enable = true
+enable = false
 map_latitude = "48.876850399160524"
 map_longitude = "2.2913078995031624"
 map_marker = "images/marker.png"
