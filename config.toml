@@ -46,8 +46,8 @@ link = "plugins/magnific-popup/jquery.magnific.popup.min.js"
 link = "plugins/search/fuse.min.js"
 [[params.plugins.js]]
 link = "plugins/search/mark.js"
-#[[params.plugins.js]]
-#link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
 #[[params.plugins.js]]
 #link = "plugins/google-map/gmap.js"
 
