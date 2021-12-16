@@ -5,7 +5,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 d-lg-none">
+      <div class="col-lg-12 d-md-none">
         <div class="pb-4 d-flex justify-content-center">
       {{ range (.GetTerms "tags") }}
           <a class="d-block w-15 text-center p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
@@ -20,7 +20,7 @@
           {{ .Content }}
         </div>
       </div>
-        <div class="col-md-4 d-none d-lg-block">
+        <div class="col-md-4 d-none d-md-block">
         {{ range (.GetTerms "tags") }}
           <div class="icons">
             <a class="px-3 py-2 d-block bg-light" href="/tags/{{ .LinkTitle | urlize }}">
