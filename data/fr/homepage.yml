@@ -113,7 +113,7 @@ service:
     # Service item loop
     - title : "IOT"
       icon : "IOT" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Sécurisation, Monitoring "
+      content : "Sécurisation, Monitoring"
       link : "iot"
 
     # Service item loop

@@ -6,7 +6,7 @@ bg_image : "images/backgrounds/banner.webp"
 # about image
 image: "images/backgrounds/interventions.webp"
 # meta description
-description : "Maintenance - Interventions sur site"
+description : "Maintenance sur site, SAV, Projets"
 aliases :  "/maintenance-interventions"
 tags : ['Interventions','SAV','Projets']
 author: "david foltete"

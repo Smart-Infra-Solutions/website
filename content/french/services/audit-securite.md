@@ -5,7 +5,7 @@ draft : false
 bg_image : "images/backgrounds/banner.webp"
 image: "images/backgrounds/sécurité.webp"
 # meta description
-description : "Audit sécurité"
+description : "Annuaires, authentifications, sécurité, architecture technique, systèmes"
 aliases :  "/audit-securite"
 tags : ['Audit','Cloud','Sécurité']
 author: "david foltete"

@@ -5,7 +5,7 @@ draft : true
 bg_image : "images/backgrounds/banner.webp"
 image: "images/backgrounds/affichage-dynamique.webp"
 # meta description
-description : "Affichage Dynamique"
+description : "Solutions IOT, Management centralisé"
 aliases :  "/affichage-dynamique"
 tags : ['Affichage Dynamique','Cloud','IP']
 author: "david foltete"
