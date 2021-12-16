@@ -48,8 +48,8 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-#[[params.plugins.js]]
-#link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
 
 ############################## navigation ###############################
 # main menu
@@ -114,7 +114,8 @@ title2 = "SIS"
 description = "Spécialisés dans la gestion des infrastructures systèmes, réseau et cloud, nous vous offrons une approche innovante dans la fourniture de services managés."
 author = "David Foltete"
 # contact info
-address = "17 Rue DES ACACIAS / 75017 PARIS 17"
+address = "17 Rue DES ACACIAS"
+town = "75017 PARIS 17"
 mobile = "+33 1 89 16 87 84"
 email = "contact@si.solutions"
 # contact form action
@@ -138,7 +139,7 @@ label = "Soumettez nous votre projet"
 link = "contact"
 # google map
 [params.map]
-enable = false
+enable = true
 map_latitude = "48.876850399160524"
 map_longitude = "2.2913078995031624"
 map_marker = "images/marker.png"
