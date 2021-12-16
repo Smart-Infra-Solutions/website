@@ -59,7 +59,7 @@
 
         {{ if .Site.Params.search }}
         {{ "<!-- search -->" | safeHTML }}
-        <div class="search px-4">
+        <div class="search px-4 pt-3 pb-5">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
             <form action="{{ `search`| relLangURL }}" class="h-100">
