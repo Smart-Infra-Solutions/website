@@ -30,7 +30,7 @@ steps:
       from_secret: id_rsapassphrase
     target:
         from_secret: path
-    overwrite: true
+    rm: true
     strip_components: 1
     source: public/*
 -   name: purge cache
@@ -88,7 +88,7 @@ steps:
       from_secret: id_rsapassphrase
     target:
         from_secret: pathdev
-    overwrite: true
+    rm: true
     strip_components: 1
     source: public/*
 -   name: purge cache
@@ -115,6 +115,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 7c1512720d53cb930d12c2bce2126757883c1200127a8ad9163703de2cd5ac46
+hmac: 18dd696f890b173275db83db56b4535a6f268448d33418e31e6c9a0aaef46781
 
 ...
