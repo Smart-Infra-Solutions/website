@@ -10,7 +10,7 @@
       {{ range . }}
       <div class="text-center py-3 px-2">
         <a href="{{ .url | relURL }}" target="_blank" alt="{{ .brand }}">
-          <img class="d-unset img-fluid" src="{{ .logo | absURL }}" alt="client-logo" width="140px" height="auto" />
+          <img class="d-unset img-fluid" src="{{ .logo | absURL }}" alt="client-logo" width="140px" height="140px" />
         </a>
       </div>
       {{ end }}
