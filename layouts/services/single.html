@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 d-xl-none d-md-none">
-        <div class="pb-4 d-flex text-center">
+        <div class="pb-4 d-flex text-center justify-content-center">
       {{ range (.GetTerms "tags") }}
           <a class="d-block w-15 p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
            <img class="d-block iconratio60" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
@@ -35,7 +35,7 @@
         {{ end }}
       </div>
     </div>
-    <div class="mt-3 col-md-8 pt-3">
+    <div class="text-center mt-3 col-md-8 pt-2">
       <a href="{{ .Site.Params.navigation_button.link | absLangURL }}" class="btn btn-primary">{{ .Site.Params.navigation_button_project.label }}</a>
     </div>
     </div>
