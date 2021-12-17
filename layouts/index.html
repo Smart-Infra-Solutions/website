@@ -51,7 +51,7 @@
         <div class="card rounded-0 text-center hover-bg-secondary">
             <div class="card-body p-4">
               <em class="icon-rounded bg-primary text-white mb-4">
-                <img src="/images/icons/{{ .icon | urlize }}_white.svg" class="iconratio60" />
+                <img src="/images/icons/{{ .icon | urlize }}_white.svg" class="iconratio60" alt="{{ .title | markdownify }}" />
               </em>
             <h4 class="card-title">{{ .title | markdownify }}</h4>
             <P class="card-text content">{{ .content | markdownify }}</P>
