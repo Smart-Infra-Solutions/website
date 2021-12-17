@@ -50,12 +50,12 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | absURL }}" async></script>
+<script src="{{ .link | absURL }}" defer></script>
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}" async></script>
+<script src="{{ $script.Permalink }}" defer></script>
 
 {{ if hugo.IsProduction }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
