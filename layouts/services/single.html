@@ -5,36 +5,39 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 d-block d-md-none d-xl-none d-lg-none">
-        <div class="pb-4 d-flex justify-content-center">
+      <div class="col-sm-12 d-xl-none d-md-none">
+        <div class="pb-4 d-flex text-center">
       {{ range (.GetTerms "tags") }}
-          <a class="d-block w-15 text-center p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
+          <a class="d-block w-15 p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
            <img class="d-block iconratio60" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
           </a>
       {{ end }}
     </div>
     </div>
-      <div class="col-md-8 d-inline">
+      <div class="col-md-8">
         <div class="content">
-          <img class="d-unset img-fluid bannerimg" height="2em" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .LinkTitle  }}" />
+         <img class="d-unset img-fluid bannerimg" height="2em" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .LinkTitle  }}" />
+      </div>
+    </div>
+      <div class="col-md-8">
+        <div class="content px-4">
           {{ .Content }}
         </div>
       </div>
-        <div class="col-md-4 d-none d-sm-none d-md-block">
+        <div class="col-md-4 d-none d-md-block">
         {{ range (.GetTerms "tags") }}
           <div class="icons">
-            <a class="px-3 py-2 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
-             <img class="d-unset img-fluid icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="iconstag">{{ .LinkTitle  }}</em>
+            <a class="d-flex px-3 py-2 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
+             <img class="d-unset img-fluid icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" />
+              <p class="pl-2 pt-1">{{ .LinkTitle  }}</p>
             </a>
           </div>
         {{ end }}
       </div>
     </div>
-  </div>
-    <div class="mt-3 col-md-8 d-block text-center">
-      <div class="col-12">
-        <a href="{{ .Site.Params.navigation_button.link | absLangURL }}" class="btn btn-primary">{{ .Site.Params.navigation_button_project.label }}</a>
-      </div>
+    <div class="mt-3 col-md-8 pt-3">
+      <a href="{{ .Site.Params.navigation_button.link | absLangURL }}" class="btn btn-primary">{{ .Site.Params.navigation_button_project.label }}</a>
+    </div>
     </div>
 </section>
 

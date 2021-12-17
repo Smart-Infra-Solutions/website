@@ -4,9 +4,6 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-between">
-      {{ if .Site.Params.map.enable }}
-      <div class="col-lg-7 mobile-height mb-5 mb-lg-0"><iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-1.6040039062500002%2C45.62940492064501%2C6.1962890625%2C51.93071827931289&amp;layer=mapnik&amp;marker=48.879167148960214%2C2.296142578125" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=48.879&amp;mlon=2.296#map=7/48.879/2.296">Afficher une carte plus grande</a></small></div>
-      {{ end }}
       <div class="col-lg-4">
         <div class="p-5 bg-secondary">
           <h3 class="text-white border-bottom pb-4 mb-5">{{i18n "keep_in_touch"}}</h3>
@@ -28,6 +25,11 @@
           </div>
         </div>
       </div>
+      {{ if .Site.Params.map.enable }}
+      <div class="col-lg-7 mobile-height mb-5 mb-lg-0"><iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-1.6040039062500002%2C45.62940492064501%2C6.1962890625%2C51.93071827931289&amp;layer=mapnik&amp;marker=48.879167148960214%2C2.296142578125"
+          style="border: 1px solid black"></iframe><br /><small><a href="https://www.openstreetmap.org/?mlat=48.879&amp;mlon=2.296#map=7/48.879/2.296">Afficher une carte plus grande</a></small></div>
+      {{ end }}
     </div>
   </div>
 </section>

@@ -49,7 +49,7 @@ a:hover {
 }
 
 .section {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 
   &-sm {
@@ -377,9 +377,8 @@ textarea.form-control {
 }
 
 .icons {
-  padding-left: 10px;
-  padding-right: 0px;
-  padding-bottom: 5px;
+   font-size: 0.9em;
+
 }
 
 .icons-logo {
@@ -389,7 +388,6 @@ textarea.form-control {
 
 .iconstag {
   padding-left: 10px;
-  padding-right: 0px;
 }
 
 .bannerimg {
