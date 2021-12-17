@@ -5,7 +5,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 d-xl-none">
+      <div class="col-lg-12 d-block d-md-none d-xl-none d-lg-none">
         <div class="pb-4 d-flex justify-content-center">
       {{ range (.GetTerms "tags") }}
           <a class="d-block w-15 text-center p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
@@ -14,16 +14,16 @@
       {{ end }}
     </div>
     </div>
-      <div class="col-md-8">
+      <div class="col-md-8 d-inline">
         <div class="content">
           <img class="d-unset img-fluid bannerimg" height="2em" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .LinkTitle  }}" />
           {{ .Content }}
         </div>
       </div>
-        <div class="col-md-4 d-none d-lg-block">
+        <div class="col-md-4 d-none d-sm-none d-md-block">
         {{ range (.GetTerms "tags") }}
           <div class="icons">
-            <a class="px-3 py-2 d-block bg-light" href="/tags/{{ .LinkTitle | urlize }}">
+            <a class="px-3 py-2 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
              <img class="d-unset img-fluid icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="iconstag">{{ .LinkTitle  }}</em>
             </a>
           </div>
