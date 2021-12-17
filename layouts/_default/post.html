@@ -1,8 +1,13 @@
 <div class="card rounded-0">
+  {{ if .Params.Image }}
   <img class="card-img-top rounded-0" src="{{ .Params.Image | absURL }}">
+  {{ end }}
   <div class="card-body">
+    {{ if .Params.Author }}
     <div class="mb-2">{{ i18n "posted_by"}} <a class="text-dark font-weight-bold" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a> / {{ i18n "posted_on"}}
-      <strong class="text-dark">{{ .PublishDate.Format "02 Jan, 2006" }}</strong></div>
+      <strong class="text-dark">{{ .PublishDate.Format "02 Jan, 2006" }}</strong>
+    </div>
+    {{ end }}
     <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p>{{ .Summary }}...</p>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more"}}</a>
