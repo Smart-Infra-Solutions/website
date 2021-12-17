@@ -3,7 +3,7 @@ title : "Audit infrastructures"
 draft : false
 # page title background image
 bg_image : "images/backgrounds/banner.webp"
-image: "images/backgrounds/audit.png"
+image: "images/backgrounds/audit.webp"
 # meta description
 description : "Audit réseau, Analyse des coûts Télécom"
 aliases :  "/audit-infrastructures"
