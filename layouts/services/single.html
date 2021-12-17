@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 d-xl-none d-md-none">
-        <div class="pb-4 d-flex text-center">
+        <div class="pb-4 d-flex text-center justify-content-center">
       {{ range (.GetTerms "tags") }}
           <a class="d-block w-15 p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
            <img class="d-block iconratio60" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
