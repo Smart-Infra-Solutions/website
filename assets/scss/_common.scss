@@ -376,9 +376,8 @@ textarea.form-control {
   top: 100px;
 }
 
-.icons {
+.iconsfontsize {
    font-size: 0.9em;
-
 }
 
 .icons-logo {
@@ -399,11 +398,15 @@ textarea.form-control {
 }
 
 .iconratio60 {
-   max-width: 40% !important;
+   max-width: 60% !important;
    margin-left: auto !important;
    margin-right: auto !important;
 }
 
 .w-15 {
   width: 20% !important;
+}
+
+.cardtaille {
+	height: 100%;
 }

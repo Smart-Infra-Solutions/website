@@ -3,12 +3,17 @@
   {{ "<!-- categories -->" | safeHTML }}
   {{ "<!-- tags -->" | safeHTML }}
   <div class="bg-white mb-5">
-    <h4 class="mb-4">{{ i18n "tags" }}</h4>
+    <h5 class="mb-4">{{ i18n "tags" }} :</h5>
     {{- if isset .Site.Taxonomies "tags" }}
     {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
     <ul class="list-inline">
       {{- range $name, $items := .Site.Taxonomies.tags }}
-      <li class="list-inline-item mb-2"><a class="px-3 py-2 d-block bg-light" href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+      <li class="list-inline-item mb-2">
+        <a class="d-block bg-light" href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}">
+         <img class="icons-logo" src="/images/icons/{{ $name | urlize | lower }}.svg" alt="{{ $name | humanize }}" />
+            <em class="iconsfontsize pl-2 pt-2">{{ $name | humanize }}</em>
+        </a>
+      </li>
       {{- end }}
     </ul>
     {{- end }}

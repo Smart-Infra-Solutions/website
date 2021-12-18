@@ -13,7 +13,7 @@
       {{ range .service_item }}
       <a href="{{ .link | markdownify }}">
       <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card rounded-0 text-center hover-bg-secondary">
+        <div class="text-center card rounded-2 hover-bg-secondary cardtaille">
             <div class="card-body p-4">
               <em class="icon-rounded bg-primary text-white mb-4">
                 <img src="/images/icons/{{ .icon | urlize }}_white.svg" class="iconratio60" />
@@ -26,7 +26,6 @@
       </div>
       {{ end }}
     </div>
-  </div>
 </section>
 <!-- /service -->
 {{ end }}

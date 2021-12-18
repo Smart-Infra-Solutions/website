@@ -32,7 +32,7 @@
   translation: Latest Article
 
 - id: tags
-  translation: Tags
+  translation: Tous les tags
 
 - id: read_more
   translation: Lire plus
@@ -84,3 +84,6 @@
 
 - id: posted_on
   translation: le
+
+- id: associated_tags
+  translation: Tags associés
