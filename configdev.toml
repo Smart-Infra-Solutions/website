@@ -176,6 +176,11 @@ url = "https://www.docker.com/"
 brand = "Docker"
 
 [[params.clients_logo]]
+logo = "images/clients-logo/Xibo_logo.webp"
+url = "https:///xibo.org.uk/"
+brand = "Xibo"
+
+[[params.clients_logo]]
 logo = "images/clients-logo/Unimus_logo.webp"
 url = "https://unimus.net"
 brand = "Unimus"
