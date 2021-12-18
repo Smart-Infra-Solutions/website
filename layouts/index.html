@@ -48,7 +48,7 @@
       {{ range .service_item }}
       <a href="{{ .link | markdownify }}" alt="{{ .title | markdownify }}">
       <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card rounded-2 text-center hover-bg-secondary cardtaille">
+        <div class="card rounded-2 text-center hover-bg-secondary h-100">
             <div class="card-body p-4">
               <em class="icon-rounded bg-primary text-white mb-4">
                 <img src="/images/icons/{{ .icon | urlize }}_white.svg" class="iconratio60" alt="{{ .title | markdownify }}" />
