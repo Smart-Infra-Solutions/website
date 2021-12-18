@@ -18,25 +18,25 @@
         <div class="content">
          <img class="d-unset img-fluid bannerimg" height="2em" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .LinkTitle  }}" />
       </div>
-    </div>
-      <div class="col-md-8">
+
         <div class="content px-4">
           {{ .Content }}
-        </div>
-      </div>
-        <div class="col-md-4 d-none d-md-block">
-        {{ range (.GetTerms "tags") }}
-          <div class="icons">
-            <a class="d-flex px-3 py-2 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
-             <img class="d-unset img-fluid icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" />
-              <p class="pl-2 pt-1">{{ .LinkTitle  }}</p>
-            </a>
-          </div>
-        {{ end }}
+
       </div>
     </div>
-    <div class="text-center mt-3 col-md-8 pt-2">
-      <a href="{{ .Site.Params.navigation_button.link | absLangURL }}" class="btn btn-primary">{{ .Site.Params.navigation_button_project.label }}</a>
+    <div class="col-md-4 d-none d-md-block">
+      {{ range (.GetTerms "tags") }}
+      <div class="icons">
+        <a class="d-flex px-3 py-2 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
+          <img class="d-unset img-fluid icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" />
+          <p class="pl-2 pt-1">{{ .LinkTitle  }}</p>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+      <div class="text-center mt-3 col-md-8 pt-2">
+        <a href="{{ .Site.Params.navigation_button.link | absLangURL }}" class="btn btn-primary">{{ .Site.Params.navigation_button_project.label }}</a>
+      </div>
     </div>
     </div>
 </section>
