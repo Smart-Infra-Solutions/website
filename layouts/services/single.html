@@ -14,7 +14,7 @@
       {{ end }}
     </div>
     </div>
-      <div class="col-md-8">
+      <div class="col-md-9">
         <div class="content">
          <img class="d-unset img-fluid bannerimg" height="2em" src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="{{ .LinkTitle  }}" />
       </div>
@@ -24,12 +24,12 @@
 
       </div>
     </div>
-    <div class="col-md-4 d-none d-md-block">
+    <div class="col-md-3 d-none d-md-block">
       {{ range (.GetTerms "tags") }}
-      <div class="icons">
-        <a class="d-flex px-3 py-2 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
-          <img class="d-unset img-fluid icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" />
-          <p class="pl-2 pt-1">{{ .LinkTitle  }}</p>
+      <div class="p-1">
+        <a class="px-1 py-1 bg-light d-flex" href="/tags/{{ .LinkTitle | urlize }}">
+          <img class="icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" />
+          <em class="iconsfontsize pl-2 pt-2">{{ .LinkTitle  }}</em>
         </a>
       </div>
       {{ end }}
