@@ -1,6 +1,6 @@
 ---
 title: "Merci pour votre message"
-draft: false
+draft: true
 # page title background image
 # bg_image: "images/backgrounds/about-page.jpg"
 # about image
