@@ -25,6 +25,7 @@
       </div>
     </div>
     <div class="col-md-3 d-none d-md-block">
+      <h5 class="p-2">{{ i18n "associated_tags" }} :</h5>
       {{ range (.GetTerms "tags") }}
       <div class="p-1">
         <a class="px-1 py-1 bg-light d-flex" href="/tags/{{ .LinkTitle | urlize }}">
