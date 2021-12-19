@@ -7,7 +7,7 @@ image: "images/backgrounds/iot.webp"
 # meta description
 description : "Sécurisation, Monitoring"
 aliases :  "/iot"
-tags : ['IOT','Cloud','IP']
+tags : ['IOT','Cloud']
 author: "david foltete"
 date: 2021-11-06T15:27:17+06:00
 ---

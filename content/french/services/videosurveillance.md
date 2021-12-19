@@ -8,7 +8,7 @@ image: "images/backgrounds/surveillance.webp"
 # meta description
 description : "Vidéo sur IP, sonorisation PPMS, Controle d'accès"
 aliases :  "/videosurveillance"
-tags : ['Vidéo Surveillance','Cloud','IP','Affichage Dynamique']
+tags : ['Vidéo Surveillance','Cloud','Affichage Dynamique']
 author: "david foltete"
 date: 2021-11-06T15:27:17+06:00
 ---
