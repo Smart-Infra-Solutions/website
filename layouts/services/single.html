@@ -5,14 +5,12 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 d-xl-none d-md-none">
-        <div class="pb-4 d-flex text-center justify-content-center">
+      <div class="col-12 d-xl-none d-flex d-md-none">
       {{ range (.GetTerms "tags") }}
-          <a class="d-block w-15 p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
-           <img class="d-block iconratio60" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
+          <a class="w-25 d-block p-3 bg-light" href="/tags/{{ .LinkTitle | urlize }}">
+           <img class="d-block icons-logo iconratio60" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" /><em class="text-center">{{ .LinkTitle  }}</em>
           </a>
       {{ end }}
-    </div>
     </div>
       <div class="col-md-9">
         <div class="content">
@@ -26,14 +24,14 @@
     </div>
     <div class="col-md-3 d-none d-md-block">
       <h5 class="p-2">{{ i18n "associated_tags" }} :</h5>
-      {{ range (.GetTerms "tags") }}
       <div class="p-1">
+      {{ range (.GetTerms "tags") }}
         <a class="px-1 py-1 bg-light d-flex" href="/tags/{{ .LinkTitle | urlize }}">
           <img class="icons-logo" src="/images/icons/{{ .LinkTitle | urlize }}.svg" alt="{{ .LinkTitle  }}" />
           <em class="iconsfontsize pl-2 pt-2">{{ .LinkTitle  }}</em>
         </a>
-      </div>
       {{ end }}
+    </div>
     </div>
       <div class="text-center mt-3 col-md-8 pt-2">
         <a href="{{ .Site.Params.navigation_button.link | absLangURL }}" class="btn btn-primary">{{ .Site.Params.navigation_button_project.label }}</a>
