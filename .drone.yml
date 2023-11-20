@@ -2,8 +2,6 @@
 kind: pipeline
 type: docker
 name: Sync master
-node:
-  drone: bzkg9
 trigger:
   branch:
   - main
@@ -60,8 +58,6 @@ steps:
 kind: pipeline
 type: docker
 name: Sync dev
-node:
-  drone: ch1
 trigger:
   branch:
   - dev
@@ -115,6 +111,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: 7c1512720d53cb930d12c2bce2126757883c1200127a8ad9163703de2cd5ac46
+hmac: 0f5da30c8acd2fc006a37338fa33742b3032bde008a32481ad84200d79802482
 
 ...
