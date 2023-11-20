@@ -25,7 +25,7 @@ La gestion et l’hébergement du site est assurée par la société SIS.
 ```
 ## Conditions d’utilisation
 
-Le site accessible par les URL suivants : www.si.solutions et www.smartinfra.solutions, est exploité dans le respect de la législation française. L’utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront être modifiées à tout moment et sans préavis par la société SIS.
+Le site accessible par les URL suivants : www.si.solutions et www.smartinfrasolutions.fr, est exploité dans le respect de la législation française. L’utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront être modifiées à tout moment et sans préavis par la société SIS.
 
 SIS ne saurait être tenu pour responsable en aucune manière d’une mauvaise utilisation du service.
 
@@ -36,7 +36,7 @@ Limitation de responsabilité.
 
 ## Contenu du site
 
-SIS apporte le plus grand soin et met en œuvre tout moyen pour diffuser sur le site Internet www.Sis.fr des informations de qualité.
+SIS apporte le plus grand soin et met en œuvre tout moyen pour diffuser sur le site Internet  www.smartinfrasolutions.fr des informations de qualité.
 
 SIS ne peut toutefois pas garantir de manière absolue l’exactitude et l’exhaustivité de l’ensemble de ces informations. Ces informations et/ou documents sont susceptibles de contenir des inexactitudes techniques et des erreurs typographiques. Si des informations fournies par SIS apparaissent inexactes, il appartient à l’utilisateur de procéder lui-même à toutes vérifications de la cohérence ou de la vraisemblance des résultats obtenus et il est fortement recommandé de vérifier l’exactitude et la pertinence des informations et/ou documents mis à disposition sur ce site. SIS se réserve le droit de les corriger, dès que ces erreurs sont portées à sa connaissance. Les informations et/ou documents disponibles sur ce site sont susceptibles d’être modifiés à tout moment, et peuvent avoir fait l’objet de mises à jour. En particulier, ils peuvent avoir fait l’objet d’une mise à jour entre le moment de leur téléchargement et celui où l’utilisateur en prend connaissance.
 
@@ -44,7 +44,7 @@ SIS n’est en aucun cas responsable de l’utilisation faite de ces information
 
 ## Liens hypertextes
 
-SIS ne représente pas, ne garantit pas et ne détient aucune responsabilité sur des sites extérieurs pour lesquels il pourrait exister des liens depuis ce site ou vice-versa. Tout site extérieur auquel l’utilisateur a accès à partir d’un lien hypertexte depuis www.Sis.fr est en dehors du contrôle d’SIS et l’utilisateur visite ces sites extérieurs à ses propres risques. SIS ne pourra en aucun cas être tenu pour responsable du contenu des sites ainsi accessibles, ou des éventuelles collectes et transmission de données personnelles, installation de cookies ou tout autre procédé tendant aux mêmes fins, effectués par ces sites.
+SIS ne représente pas, ne garantit pas et ne détient aucune responsabilité sur des sites extérieurs pour lesquels il pourrait exister des liens depuis ce site ou vice-versa. Tout site extérieur auquel l’utilisateur a accès à partir d’un lien hypertexte depuis www.si.solutions est en dehors du contrôle d’SIS et l’utilisateur visite ces sites extérieurs à ses propres risques. SIS ne pourra en aucun cas être tenu pour responsable du contenu des sites ainsi accessibles, ou des éventuelles collectes et transmission de données personnelles, installation de cookies ou tout autre procédé tendant aux mêmes fins, effectués par ces sites.
 
 Les liens hypertextes mis en place dans le cadre du présent site internet en direction d’autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité d’SIS.
 
