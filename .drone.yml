@@ -61,7 +61,7 @@ kind: pipeline
 type: docker
 name: Sync dev
 node:
-  drone: ch1
+  drone: SisDockerG9
 trigger:
   branch:
   - dev
@@ -115,6 +115,6 @@ steps:
     status: [success, failure]
 ---
 kind: signature
-hmac: b17525fc1e9dd0d19b16d86c7a147c8e8d7de3d0410e2ca9c0d9befe52d9ec34
+hmac: e7dc297374a6a7161813fabe98db5ecbef8214851db2addfe6971475e923ead0
 
 ...
