@@ -73,3 +73,4 @@ Toute reproduction, distribution, modification, adaptation, retransmission ou pu
 ## Litiges
 
 Les présentes conditions sont régies par les lois françaises et toute contestation ou litiges qui pourraient naître de l’interprétation ou de l’exécution de celles-ci seront de la compétence exclusive des tribunaux dont dépend le siège social de la société SIS. La langue de référence, pour le règlement de contentieux éventuels, est le français.
+
